@@ -1,0 +1,39 @@
+[
+  {
+    "id": "task-001",
+    "date": "2026-05-25",
+    "owner": "Marketing",
+    "area": "Conteúdo",
+    "task": "Publicar carrossel de tese e levar para o grupo",
+    "priority": "alta",
+    "status": "pendente"
+  },
+  {
+    "id": "task-002",
+    "date": "2026-05-26",
+    "owner": "Programação",
+    "area": "Kiwify",
+    "task": "Criar produto WMC 2 com preço R$247",
+    "priority": "alta",
+    "status": "pendente"
+  },
+  {
+    "id": "task-003",
+    "date": "2026-06-03",
+    "owner": "Marketing",
+    "area": "WhatsApp",
+    "task": "Abrir oferta primeiro no grupo",
+    "priority": "crítica",
+    "status": "pendente"
+  },
+  {
+    "id": "task-004",
+    "date": "2026-06-05",
+    "owner": "Coordenação",
+    "area": "Fechamento",
+    "task": "Fechar carrinho e registrar números finais",
+    "priority": "crítica",
+    "status": "pendente"
+  }
+]
+

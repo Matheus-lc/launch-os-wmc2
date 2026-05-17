@@ -1,0 +1,29 @@
+{
+  "price": 247,
+  "recommended_model": "Pré-lançamento orgânico curto com WhatsApp",
+  "targets": {
+    "conservador": {
+      "vendas": 40,
+      "faturamento": 9880
+    },
+    "realista": {
+      "vendas": 80,
+      "faturamento": 19760
+    },
+    "bom": {
+      "vendas": 120,
+      "faturamento": 29640
+    },
+    "stretch": {
+      "vendas": 200,
+      "faturamento": 49400
+    }
+  },
+  "healthy_ranges": {
+    "interacao_grupo": "acima de 10%",
+    "cpl_grupo": "até R$5",
+    "conversao_grupo": "8% a 12%",
+    "conversao_pagina": "2% a 6%"
+  }
+}
+

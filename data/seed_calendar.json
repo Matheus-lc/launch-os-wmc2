@@ -1,0 +1,33 @@
+[
+  {
+    "date": "2026-05-25",
+    "phase": "pré-lançamento",
+    "title": "Início do aquecimento operacional",
+    "deliverable": "Carrossel de tese e página do grupo em rascunho"
+  },
+  {
+    "date": "2026-05-29",
+    "phase": "pré-lançamento",
+    "title": "Vídeo principal no YouTube",
+    "deliverable": "Vídeo publicado com CTA para WhatsApp"
+  },
+  {
+    "date": "2026-06-02",
+    "phase": "pré-lançamento",
+    "title": "Véspera de abertura",
+    "deliverable": "Checkout testado e mensagem de abertura pronta"
+  },
+  {
+    "date": "2026-06-03",
+    "phase": "abertura",
+    "title": "Abertura do WMC 2",
+    "deliverable": "Oferta enviada primeiro no WhatsApp"
+  },
+  {
+    "date": "2026-06-05",
+    "phase": "fechamento",
+    "title": "Fechamento do carrinho",
+    "deliverable": "Carrinho fechado e relatório inicial preenchido"
+  }
+]
+

@@ -1,0 +1,92 @@
+# Dicionário de métricas
+
+## Entradas no grupo
+
+- Fórmula: total de novos participantes no WhatsApp por dia.
+- Frequência: diária.
+- Responsável: marketing.
+- Faixa saudável: 50 ou mais por dia no pré.
+- Faixa de alerta: menos de 20 por dia.
+- Ação corretiva: revisar CTA, página do grupo e criativo de captação.
+
+## Taxa de interação do grupo
+
+- Fórmula: participantes que responderam ou reagiram / participantes totais.
+- Frequência: diária.
+- Responsável: marketing.
+- Faixa saudável: acima de 10%.
+- Faixa de alerta: abaixo de 5%.
+- Ação corretiva: enviar enquete simples, áudio curto ou pergunta binária.
+
+## Cliques na página de vendas
+
+- Fórmula: sessões ou cliques registrados no link da página.
+- Frequência: diária na abertura.
+- Responsável: programação.
+- Faixa saudável: cresce após mensagens de abertura.
+- Faixa de alerta: muitas visualizações no WhatsApp e poucos cliques.
+- Ação corretiva: revisar link, CTA e posição do botão.
+
+## Conversão da página
+
+- Fórmula: vendas / visitantes da página de vendas.
+- Frequência: a cada 6 horas durante carrinho.
+- Responsável: coordenação.
+- Faixa saudável: 2% a 6% para tráfego quente.
+- Faixa de alerta: abaixo de 1%.
+- Ação corretiva: simplificar headline, aproximar prova do preço e revisar checkout.
+
+## Conversão do grupo
+
+- Fórmula: vendas atribuídas ao WhatsApp / participantes do grupo.
+- Frequência: diária durante carrinho.
+- Responsável: coordenação.
+- Faixa saudável: 8% a 12%.
+- Faixa de alerta: abaixo de 4%.
+- Ação corretiva: publicar FAQ, prova autorizada e mensagem de aplicação.
+
+## CPL grupo
+
+- Fórmula: gasto em ads / entradas no grupo vindas de ads.
+- Frequência: diária.
+- Responsável: marketing.
+- Faixa saudável: até R$5.
+- Faixa de alerta: acima de R$8.
+- Ação corretiva: trocar criativo, estreitar público ou reduzir orçamento.
+
+## CTR anúncio
+
+- Fórmula: cliques / impressões.
+- Frequência: diária.
+- Responsável: marketing.
+- Faixa saudável: acima de 1%.
+- Faixa de alerta: abaixo de 0,8%.
+- Ação corretiva: testar gancho com tese ou bastidor do Saizen.
+
+## Abandono de checkout
+
+- Fórmula: pessoas que chegaram ao checkout e não compraram / visitas ao checkout.
+- Frequência: a cada 6 horas durante carrinho.
+- Responsável: programação.
+- Faixa saudável: abaixo de 70%.
+- Faixa de alerta: acima de 80%.
+- Ação corretiva: testar pagamento, preço, carregamento e clareza da oferta.
+
+## Vendas
+
+- Fórmula: pedidos pagos na Kiwify.
+- Frequência: em tempo real durante abertura e fechamento.
+- Responsável: coordenação.
+- Faixa saudável: compatível com meta do dia.
+- Faixa de alerta: zero vendas após abertura com cliques.
+- Ação corretiva: validar link, FAQ, prova e mensagem de abertura.
+
+## Faturamento bruto
+
+- Fórmula: vendas pagas x ticket médio.
+- Frequência: diária.
+- Responsável: coordenação.
+- Faixa saudável: acompanhar cenário realista.
+- Faixa de alerta: abaixo de 50% da meta diária.
+- Ação corretiva: identificar gargalo antes de aumentar tráfego.
+
