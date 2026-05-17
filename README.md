@@ -60,6 +60,27 @@ streamlit run ui/app.py
 
 Se `OPENAI_API_KEY` existir no ambiente, a aba Assistente mostra um modo opcional de chat simples. Sem chave, a UI continua funcionando como painel de consulta e cópia de prompt.
 
+## Deploy no Streamlit Community Cloud
+
+O projeto já está organizado para deploy no Streamlit Cloud:
+
+- Repositório GitHub: `Matheus-lc/launch-os-wmc2`
+- Branch: `main`
+- Main file path: `ui/app.py`
+- Dependências: `requirements.txt` na raiz
+- Configuração visual: `.streamlit/config.toml`
+
+No Streamlit Community Cloud:
+
+1. Clique em `Create app`.
+2. Escolha `Yup, I have an app`.
+3. Informe o repositório `Matheus-lc/launch-os-wmc2`.
+4. Informe a branch `main`.
+5. Informe o arquivo principal `ui/app.py`.
+6. Em `Advanced settings`, use Python `3.12` se a opção aparecer.
+7. Não é necessário configurar secrets para o uso básico.
+8. Clique em `Deploy`.
+
 ## Decisão estratégica resumida
 
 O modelo recomendado é um pré-lançamento orgânico curto com aquecimento em WhatsApp, abertura primeiro no WhatsApp, liberação pública depois no Instagram e carrinho de 48 a 60 horas. A venda é técnica, indireta e baseada em autoridade, prova e clareza de aplicação.
@@ -70,4 +91,3 @@ Datas principais:
 - Abertura no WhatsApp em **03/06/2026**
 - Fechamento em **05/06/2026**
 - Preço recomendado: **R$247**
-

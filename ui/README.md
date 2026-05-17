@@ -18,3 +18,13 @@ streamlit run ui/app.py
 
 A UI funciona sem API externa. Se `OPENAI_API_KEY` existir no ambiente, a aba Assistente mostra um espaço opcional para montar uma mensagem de chat, mas o uso do prompt mestre continua manual e local.
 
+## Deploy no Streamlit Community Cloud
+
+Configurações:
+
+- Repository: `Matheus-lc/launch-os-wmc2`
+- Branch: `main`
+- Main file path: `ui/app.py`
+- Python version: `3.12`
+
+Não configure secrets no primeiro deploy. A UI funciona lendo apenas arquivos Markdown, CSV e JSON do repositório.
