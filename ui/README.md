@@ -18,6 +18,10 @@ streamlit run ui/app.py
 
 A UI funciona sem API externa. Se `OPENAI_API_KEY` existir no ambiente, a aba Assistente mostra um espaço opcional para montar uma mensagem de chat, mas o uso do prompt mestre continua manual e local.
 
+## Estética visual
+
+A interface segue estética Battallion/Saizen: preto, branco, técnico, protocolar, premium e brutalista. O visual usa a logo Saizen Squad em `ui/assets/saizen-squad-logo.png`, blocos densos, bordas secas, linguagem de protocolo e acentos discretos em vermelho profundo e amarelo envelhecido.
+
 ## Deploy no Streamlit Community Cloud
 
 Configurações:
