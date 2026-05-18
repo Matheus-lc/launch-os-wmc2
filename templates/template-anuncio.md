@@ -25,11 +25,10 @@ CTA:
 ## Exemplo
 
 Texto principal:
-"Treino avançado não é fazer mais. É saber qual decisão cada estímulo resolve. O WMC 2 abre primeiro no WhatsApp em 03/06."
+"Treino avançado não é fazer mais. É saber qual decisão cada estímulo resolve. O WMC 2 libera acesso primeiro no WhatsApp em 05/06."
 
 Headline:
 "Entre no grupo do WMC 2"
 
 CTA:
 "Saiba mais"
-

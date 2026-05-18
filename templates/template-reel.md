@@ -29,5 +29,4 @@ Gancho: "Cansaço não é argumento técnico."
 
 Corpo: "Um treino pode ser exaustivo e ainda assim estar mal construído. Antes de aumentar intensidade, entenda qual adaptação você quer induzir."
 
-CTA: "O WMC 2 abre primeiro no WhatsApp em 03/06. Link na bio."
-
+CTA: "O WMC 2 abre primeiro no WhatsApp em 05/06. Link na bio."

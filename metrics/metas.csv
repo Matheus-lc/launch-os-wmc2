@@ -1,8 +1,17 @@
-metric,target_conservador,target_realista,target_bom,target_stretch,unit,notes
-vendas,40,80,120,200,unidades,Preço base R$247
-faturamento_bruto,9880,19760,29640,49400,BRL,Antes de taxas
-participantes_grupo,500,800,1000,1500,pessoas,Base para conversão WhatsApp
-conversao_grupo,0.08,0.10,0.12,0.13,percentual,Vendas atribuídas ao grupo
-cpl_grupo,8,5,4,3,BRL,Quanto menor melhor
-conversao_pagina,0.02,0.035,0.05,0.06,percentual,Tráfego quente
+date,phase,realistic_daily_target,operational_daily_target,group_members_actual,realistic_cumulative_target,operational_cumulative_target,cumulative_actual,status,action
+2026-05-22,grupo_aberto,22,36,0,22,36,0,pendente,Abrir grupo oficial e registrar base inicial
+2026-05-23,aquecimento,22,36,0,44,72,0,pendente,Publicar chamada direta para grupo
+2026-05-24,aquecimento,22,36,0,66,108,0,pendente,Usar stories e base quente
+2026-05-25,aquecimento,22,36,0,88,144,0,pendente,Publicar carrossel de tese
+2026-05-26,aquecimento,22,36,0,110,180,0,pendente,Reforçar promessa segura do grupo
+2026-05-27,aquecimento,22,36,0,132,216,0,pendente,Coletar dúvidas e medir entrada diária
+2026-05-28,aquecimento,22,36,0,154,252,0,pendente,Publicar prova ou bastidor autorizado
+2026-05-29,aquecimento,22,36,0,176,288,0,pendente,Publicar vídeo principal com CTA para grupo
+2026-05-30,aquecimento,22,36,0,198,324,0,pendente,Enviar mini-aula no WhatsApp
+2026-05-31,aquecimento,22,36,0,220,360,0,pendente,Revisar projeção 300/500
+2026-06-01,aquecimento,22,36,0,242,396,0,pendente,Ativar compensação se projeção estiver abaixo de 300
+2026-06-02,aquecimento,22,36,0,264,432,0,pendente,Preparar abertura e FAQ
+2026-06-03,aquecimento,22,36,0,286,468,0,pendente,Reforçar prova e diferença WMC1/WMC2
+2026-06-04,vespera_carrinho,22,36,0,300,500,0,pendente,Fechar sequência de abertura do carrinho
+2026-06-05,carrinho_aberto,22,36,0,300,500,0,pendente,Abrir carrinho primeiro no WhatsApp
 

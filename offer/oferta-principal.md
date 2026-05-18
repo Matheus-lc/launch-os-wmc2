@@ -29,8 +29,9 @@ R$247.
 
 ## Janela de venda
 
-- Abertura: 03/06/2026.
-- Fechamento: 05/06/2026.
+- Grupo oficial abre em 22/05/2026.
+- Carrinho abre em 05/06/2026, primeiro no WhatsApp.
+- Fechamento definido por velocidade de vendas, demanda residual e capacidade operacional.
 
 ## Posicionamento de venda
 
@@ -42,4 +43,3 @@ R$247.
 - Renda garantida.
 - Habilitação profissional.
 - Fórmula universal de prescrição.
-

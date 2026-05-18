@@ -14,6 +14,10 @@ ROOT = Path(__file__).resolve().parents[1]
 OPS_CSV = ROOT / "operations" / "cronograma-dia-a-dia.csv"
 STYLE_PATH = ROOT / "ui" / "styles.css"
 LOGO_PATH = ROOT / "ui" / "assets" / "saizen-squad-logo.png"
+GROUP_OPEN_FALLBACK = date(2026, 5, 22)
+CART_OPEN_FALLBACK = date(2026, 6, 5)
+REALISTIC_GROUP_FALLBACK = 300
+OPERATIONAL_GROUP_FALLBACK = 500
 
 
 st.set_page_config(
@@ -94,6 +98,75 @@ def latest_row(df: pd.DataFrame) -> dict:
     if df.empty:
         return {}
     return df.iloc[-1].to_dict()
+
+
+def parse_date(value, fallback: date) -> date:
+    if not value:
+        return fallback
+    try:
+        return date.fromisoformat(str(value)[:10])
+    except ValueError:
+        return fallback
+
+
+def int_seed(seed: dict, key: str, fallback: int) -> int:
+    try:
+        return int(seed.get(key, fallback))
+    except (TypeError, ValueError, AttributeError):
+        return fallback
+
+
+def current_group_members(row: dict) -> int:
+    try:
+        return int(float(row.get("grupo_total", 0) or 0))
+    except (TypeError, ValueError):
+        return 0
+
+
+def days_left_until_cart(as_of: date, cart_open: date) -> int:
+    if as_of >= cart_open:
+        return 1
+    return max((cart_open - as_of).days, 1)
+
+
+def daily_needed(current: int, target: int, as_of: date, cart_open: date) -> float:
+    missing = max(target - current, 0)
+    return missing / days_left_until_cart(as_of, cart_open)
+
+
+def group_projection(current: int, as_of: date, group_open: date, cart_open: date) -> float:
+    if as_of >= cart_open:
+        return float(current)
+    if as_of < group_open:
+        elapsed = 1
+        remaining = max((cart_open - group_open).days, 1)
+    else:
+        elapsed = max((as_of - group_open).days, 1)
+        remaining = max((cart_open - as_of).days, 0)
+    pace = current / elapsed if elapsed else 0
+    return current + (pace * remaining)
+
+
+def group_status(current: int, projection: float, realistic: int, operational: int) -> tuple[str, str]:
+    if current >= operational:
+        return "ACIMA DA META OPERACIONAL", "ok"
+    if projection >= operational:
+        return "CAMINHANDO PARA META OPERACIONAL", "ok"
+    if current >= realistic or projection >= realistic:
+        return "DENTRO DO CENÁRIO REALISTA", "warning"
+    if projection < 200:
+        return "ABAIXO DA PROJEÇÃO REALISTA", "critical"
+    return "ABAIXO DA PROJEÇÃO REALISTA", "critical"
+
+
+def projection_band(projection: float, realistic: int, operational: int) -> tuple[str, str]:
+    if projection >= operational:
+        return "VERDE · 500 OU MAIS", "ok"
+    if projection >= realistic:
+        return "AMARELO · entre 300 e 500", "warning"
+    if projection < 200:
+        return "CRÍTICO · abaixo de 200", "critical"
+    return "VERMELHO · abaixo de 300", "critical"
 
 
 def marker(label: str) -> None:
@@ -178,6 +251,22 @@ load_css()
 schedule = read_csv(str(OPS_CSV))
 dashboard = read_csv(str(ROOT / "metrics" / "dashboard_base.csv"))
 latest_metrics = latest_row(dashboard)
+kpis_seed = read_json(str(ROOT / "data" / "seed_kpis.json"))
+if not isinstance(kpis_seed, dict):
+    kpis_seed = {}
+group_open_date = parse_date(kpis_seed.get("group_open_date"), GROUP_OPEN_FALLBACK)
+cart_open_date = parse_date(kpis_seed.get("cart_open_date"), CART_OPEN_FALLBACK)
+realistic_group_target = int_seed(kpis_seed, "group_members_realistic_target", REALISTIC_GROUP_FALLBACK)
+operational_group_target = int_seed(kpis_seed, "group_members_operational_target", OPERATIONAL_GROUP_FALLBACK)
+group_members_now = current_group_members(latest_metrics)
+metrics_as_of = parse_date(latest_metrics.get("date"), date.today())
+projected_group_members = group_projection(group_members_now, metrics_as_of, group_open_date, cart_open_date)
+group_status_label, group_status_tone = group_status(
+    group_members_now,
+    projected_group_members,
+    realistic_group_target,
+    operational_group_target,
+)
 gargalo, gargalo_tone = infer_gargalo(latest_metrics)
 logo_uri = image_data_uri(LOGO_PATH)
 logo_html = f'<img class="hero-logo" src="{logo_uri}" alt="GH15 Approved Saizen Squad">' if logo_uri else ""
@@ -286,6 +375,29 @@ with tabs[0]:
                 status, tone = "CAMPO", "neutral"
             kpi_card(label, value, status, tone)
 
+    marker("GRUPO · 300/500")
+    st.markdown(
+        f'<div class="microcopy">Status: {group_status_label}. Base lida em {metrics_as_of.isoformat()}.</div>',
+        unsafe_allow_html=True,
+    )
+    group_cols = st.columns(2)
+    with group_cols[0]:
+        kpi_card(
+            f"EXPECTATIVA REALISTA · {realistic_group_target}",
+            f"{fmt_number(group_members_now)} / {fmt_number(realistic_group_target)}",
+            "BASE",
+            group_status_tone if group_members_now < realistic_group_target else "ok",
+        )
+        st.progress(min(group_members_now / realistic_group_target, 1.0))
+    with group_cols[1]:
+        kpi_card(
+            f"META OPERACIONAL · {operational_group_target}",
+            f"{fmt_number(group_members_now)} / {fmt_number(operational_group_target)}",
+            "ESFORÇO",
+            group_status_tone,
+        )
+        st.progress(min(group_members_now / operational_group_target, 1.0))
+
     marker("CHECKLIST · CRÍTICO")
     if not day_tasks.empty:
         editable = st.data_editor(
@@ -353,19 +465,34 @@ with tabs[3]:
     marker("MÉTRICAS · CAMPO")
     st.markdown('<div class="microcopy">Se não está medido, está sendo imaginado.</div>', unsafe_allow_html=True)
 
-    kpis = read_json(str(ROOT / "data" / "seed_kpis.json"))
-    targets = kpis.get("targets", {}) if isinstance(kpis, dict) else {}
+    price = int_seed(kpis_seed, "price", 247)
+    band_label, band_tone = projection_band(projected_group_members, realistic_group_target, operational_group_target)
+    missing_realistic = max(realistic_group_target - group_members_now, 0)
+    missing_operational = max(operational_group_target - group_members_now, 0)
+    needed_realistic = daily_needed(group_members_now, realistic_group_target, metrics_as_of, cart_open_date)
+    needed_operational = daily_needed(group_members_now, operational_group_target, metrics_as_of, cart_open_date)
 
-    cols = st.columns(4)
-    if targets:
-        with cols[0]:
-            kpi_card("PREÇO", "R$247", "OFERTA", "neutral")
-        with cols[1]:
-            kpi_card("META REALISTA", fmt_money(targets["realista"]["faturamento"]), "CAMPO", "ok")
-        with cols[2]:
-            kpi_card("VENDAS REALISTAS", str(targets["realista"]["vendas"]), "ALVO", "ok")
-        with cols[3]:
-            kpi_card("CONVERSÃO GRUPO", kpis["healthy_ranges"]["conversao_grupo"], "OK", "ok")
+    marker("CAPTAÇÃO DO GRUPO")
+    group_metric_cols = st.columns(4)
+    with group_metric_cols[0]:
+        kpi_card("INTEGRANTES ATUAIS", fmt_number(group_members_now), band_label, band_tone)
+    with group_metric_cols[1]:
+        kpi_card("EXPECTATIVA REALISTA", fmt_number(realistic_group_target), f"FALTAM {fmt_number(missing_realistic)}", "warning" if missing_realistic else "ok")
+    with group_metric_cols[2]:
+        kpi_card("META OPERACIONAL", fmt_number(operational_group_target), f"FALTAM {fmt_number(missing_operational)}", "warning" if missing_operational else "ok")
+    with group_metric_cols[3]:
+        kpi_card("PROJEÇÃO ATÉ 05/06", fmt_number(projected_group_members), band_label, band_tone)
+
+    needed_cols = st.columns(4)
+    with needed_cols[0]:
+        kpi_card("MÉDIA P/ 300", f"{needed_realistic:.1f}/dia", "ATÉ 05/06", "ok" if needed_realistic <= 22 else "warning")
+    with needed_cols[1]:
+        kpi_card("MÉDIA P/ 500", f"{needed_operational:.1f}/dia", "ATÉ 05/06", "ok" if needed_operational <= 40 else "warning")
+    with needed_cols[2]:
+        kpi_card("PREÇO", fmt_money(price), "OFERTA", "neutral")
+    with needed_cols[3]:
+        healthy_ranges = kpis_seed.get("healthy_ranges", {}) if isinstance(kpis_seed, dict) else {}
+        kpi_card("CONVERSÃO GRUPO", healthy_ranges.get("conversao_grupo", "8% a 12%"), "REFERÊNCIA", "neutral")
 
     st.markdown(
         """
@@ -386,6 +513,8 @@ with tabs[3]:
         "scorecard-grupo.csv",
         "scorecard-ads.csv",
         "daily_log.csv",
+        "sales_velocity.csv",
+        "open_close_decision_rules.csv",
     ]
     selected_metric = st.selectbox("ARQUIVO DE MÉTRICA", metric_files)
     metric_df = read_csv(str(ROOT / "metrics" / selected_metric))
@@ -445,10 +574,10 @@ with tabs[6]:
     commands_fast = [
         "O QUE FAZEMOS HOJE?",
         "REVISE ESTA COPY.",
-        "O GRUPO ESTÁ FRIO.",
-        "A PÁGINA NÃO CONVERTE.",
-        "O ANÚNCIO ESTÁ CARO.",
-        "O CARRINHO ABRIU E NÃO VENDEU.",
+        "ESTAMOS ABAIXO DA PROJEÇÃO DE 300. O QUE FAZER?",
+        "ESTAMOS ENTRE 300 E 500. COMO SEGUIR?",
+        "BATEMOS 500 ANTES DE 05/06. O QUE FAZER?",
+        "COM ESSE TAMANHO DE GRUPO, QUAL CENÁRIO DE VENDAS É REALISTA?",
     ]
     for index, command in enumerate(commands_fast):
         with cmd_cols[index % 3]:
@@ -463,7 +592,7 @@ with tabs[6]:
     st.subheader("MONTADOR DE CONSULTA")
     user_context = st.text_area(
         "COLE O CONTEXTO PARA O ASSISTENTE",
-        placeholder="Exemplo: o grupo tem 820 pessoas, interação caiu para 4%, tivemos 12 vendas e muitas dúvidas sobre WMC1.",
+        placeholder="Exemplo: o grupo tem 280 pessoas, interação caiu para 4%, tivemos 12 vendas e muitas dúvidas sobre WMC1.",
         height=140,
     )
     if user_context:

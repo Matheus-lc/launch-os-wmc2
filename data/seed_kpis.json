@@ -1,29 +1,27 @@
 {
   "price": 247,
-  "recommended_model": "Pré-lançamento orgânico curto com WhatsApp",
+  "group_open_date": "2026-05-22",
+  "cart_open_date": "2026-06-05",
+  "group_members_operational_target": 500,
+  "group_members_realistic_target": 300,
+  "daily_group_member_operational_target_min": 35,
+  "daily_group_member_operational_target_max": 40,
+  "daily_group_member_realistic_target": 22,
+  "group_members_alert_threshold_daily": 20,
+  "launch_model": "fixed_group_open_fixed_cart_open_velocity_based_close",
+  "recommended_model": "Grupo abre em 22/05, carrinho abre em 05/06 e fechamento segue velocidade de vendas",
   "targets": {
-    "conservador": {
-      "vendas": 40,
-      "faturamento": 9880
-    },
-    "realista": {
-      "vendas": 80,
-      "faturamento": 19760
-    },
-    "bom": {
-      "vendas": 120,
-      "faturamento": 29640
-    },
-    "stretch": {
-      "vendas": 200,
-      "faturamento": 49400
-    }
+    "realistic_group_members": 300,
+    "operational_group_members": 500,
+    "above_expected_group_members": 750,
+    "ticket": 247
   },
   "healthy_ranges": {
     "interacao_grupo": "acima de 10%",
     "cpl_grupo": "até R$5",
     "conversao_grupo": "8% a 12%",
-    "conversao_pagina": "2% a 6%"
+    "conversao_pagina": "2% a 6%",
+    "sales_velocity_close_alert": "menos de 5 vendas por 2 dias consecutivos"
   }
 }
 

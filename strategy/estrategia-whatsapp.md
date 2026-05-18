@@ -18,10 +18,11 @@
 
 Mensagem fixa:
 
-"Bem-vindo ao grupo do WMC 2. Aqui vamos falar de construção de treino com critério: decisões, progressão, erros comuns e bastidores do curso. A oferta abre primeiro aqui em 03/06/2026."
+"Bem-vindo ao grupo oficial do WMC 2. Aqui vamos falar de construção de treino com critério: decisões, progressão, erros comuns e bastidores do curso. O acesso será liberado primeiro aqui em 05/06/2026."
 
 ## Sequência de aquecimento
 
+- Dia 22/05: abertura do grupo, regras e enquete de nível.
 - Dia 1: tese central e enquete de nível.
 - Dia 2: erro comum de prescrição.
 - Dia 3: mini-aula curta com exemplo prático.
@@ -30,17 +31,17 @@ Mensagem fixa:
 
 ## Abertura
 
-Em 03/06/2026, enviar:
+Em 05/06/2026, enviar:
 
 - Recapitulação da tese.
 - Para quem é e para quem não é.
 - Link da página de vendas.
 - Preço R$247.
-- Aviso de carrinho até 05/06/2026.
+- Aviso de abertura do carrinho e condição de entrada da janela atual.
 
 ## Fechamento
 
-No último dia, enviar no máximo 3 lembretes:
+Quando a velocidade de vendas indicar fechamento, enviar no máximo 3 lembretes no dia final:
 
 - Manhã: resumo técnico e FAQ.
 - Tarde: objeções principais.
@@ -49,6 +50,7 @@ No último dia, enviar no máximo 3 lembretes:
 ## Métricas do grupo
 
 - Entradas por dia.
+- Projeção até 300 e 500 integrantes.
 - Visualizações das mensagens.
 - Respostas e enquetes.
 - Cliques no checkout.
@@ -75,4 +77,4 @@ Alerta:
 3. Abrir enquete binária.
 4. Transformar a dúvida mais simples em mini-aula.
 5. Evitar mensagem longa de venda.
-
+6. Se a projeção estiver abaixo de 300, acionar stories, base quente, prova e remarketing.

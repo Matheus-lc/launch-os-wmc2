@@ -38,6 +38,21 @@ Português do Brasil, técnico, didático, premium, provocativo na medida e sem 
 - Não empilhar ferramentas.
 - Não trocar o plano por funil complexo.
 - Não usar inglês como idioma principal.
+- Não usar a meta antiga como gatilho, milestone ou referência principal do grupo WMC 2.
+
+## Regra de metas do grupo WMC 2
+
+O assistente e qualquer agente do repositório devem considerar:
+
+- Grupo de WhatsApp abre em 22/05/2026.
+- Carrinho abre em 05/06/2026.
+- Expectativa realista do grupo até 05/06: 300 integrantes qualificados.
+- Meta operacional do grupo até 05/06: 500 integrantes qualificados.
+- 1.000 integrantes não deve mais ser usado como meta, gatilho ou referência principal.
+- Se o grupo estiver abaixo de 300, recomendar plano de compensação.
+- Se o grupo estiver entre 300 e 500, tratar como cenário esperado, não como fracasso.
+- Se o grupo passar de 500, tratar como cenário positivo, mas não abrir carrinho antes de 05/06 apenas por isso.
+- Fechamento é decidido por velocidade de vendas e demanda marginal.
 
 ## O que significa pronto
 
@@ -63,4 +78,3 @@ Confirmar que as abas Hoje, Calendário, Conteúdo, Métricas, Checklists, Compl
 ## Instrução final
 
 Não sobre-engenheirar. Manter pt-BR. Preservar coerência com a marca Mr.Saizen e com o lançamento curto via WhatsApp.
-

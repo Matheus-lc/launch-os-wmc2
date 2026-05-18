@@ -6,11 +6,11 @@
 
 ## Quando abre?
 
-03/06/2026, primeiro no WhatsApp.
+O grupo oficial abre em 22/05/2026. O carrinho abre em 05/06/2026, primeiro no WhatsApp.
 
 ## Quando fecha?
 
-05/06/2026, conforme horário definido pela equipe.
+O fechamento será decidido por velocidade de vendas, demanda residual e capacidade de suporte. Não usar uma data fixa sem decisão operacional.
 
 ## Qual o preço?
 
@@ -35,4 +35,3 @@ Não. É um curso educacional sobre prescrição e treino, sem promessa de resul
 ## Substitui formação profissional?
 
 Não. O curso não substitui graduação, pós-graduação, habilitação formal ou responsabilidade profissional.
-

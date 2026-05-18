@@ -8,7 +8,7 @@
 - Slide 4: Intensidade sem contexto vira desgaste.
 - Slide 5: Técnica avançada sem decisão vira teatro.
 - Slide 6: A pergunta é: qual adaptação você quer induzir?
-- Slide 7: WMC 2 abre dia 03/06 primeiro no WhatsApp.
+- Slide 7: O WMC 2 abre primeiro no WhatsApp em 05/06.
 
 ## 2. 3 perguntas antes de aumentar volume
 
@@ -36,7 +36,7 @@
 - Slide 3: Se o motivo é "deixar mais pesado", pare.
 - Slide 4: A técnica precisa resolver uma demanda.
 - Slide 5: Avançado é decidir com precisão.
-- Slide 6: Abertura em 03/06.
+- Slide 6: Abertura do carrinho em 05/06.
 
 ## 5. Para quem é o WMC 2
 
@@ -91,6 +91,5 @@
 - Slide 3: Técnico, curto e atualizado.
 - Slide 4: Foco em construção de treino.
 - Slide 5: Preço recomendado: R$247.
-- Slide 6: Abertura em 03/06.
-- Slide 7: Link no grupo.
-
+- Slide 6: Abertura em 05/06.
+- Slide 7: Link primeiro no grupo.

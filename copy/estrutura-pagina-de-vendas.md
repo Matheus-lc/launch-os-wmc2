@@ -56,6 +56,7 @@
 ## 10. Oferta
 
 - Preço: R$247.
+- Abertura do carrinho: 05/06/2026.
 - Order bump opcional: WMC1.
 - Aviso: WMC2 prevalece em divergências metodológicas.
 
@@ -65,7 +66,7 @@ Descrever garantia real da Kiwify ou política definida. Não inventar prazo.
 
 ## 12. Urgência
 
-Carrinho aberto de 03/06/2026 a 05/06/2026. Urgência real, sem falsa escassez.
+Janela de entrada aberta a partir de 05/06/2026. O fechamento deve ser comunicado por motivo real: queda de velocidade, organização de entrega, grupo de estudos e suporte. Não usar escassez falsa.
 
 ## 13. FAQ
 
@@ -74,4 +75,3 @@ Responder nível técnico, acesso, duração, certificado se houver, garantia, p
 ## 14. CTA
 
 "Quero acessar o WMC 2"
-

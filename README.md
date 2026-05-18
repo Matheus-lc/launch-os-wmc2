@@ -83,11 +83,14 @@ No Streamlit Community Cloud:
 
 ## Decisão estratégica resumida
 
-O modelo recomendado é um pré-lançamento orgânico curto com aquecimento em WhatsApp, abertura primeiro no WhatsApp, liberação pública depois no Instagram e carrinho de 48 a 60 horas. A venda é técnica, indireta e baseada em autoridade, prova e clareza de aplicação.
+O modelo recomendado é um pré-lançamento orgânico curto com grupo de WhatsApp aberto em 22/05/2026, aquecimento até 04/06/2026, abertura do carrinho em 05/06/2026 primeiro no WhatsApp e liberação pública depois no Instagram. A venda é técnica, indireta e baseada em autoridade, prova e clareza de aplicação.
 
 Datas principais:
 
-- Pré-lançamento até **02/06/2026**
-- Abertura no WhatsApp em **03/06/2026**
-- Fechamento em **05/06/2026**
+- Grupo de WhatsApp abre em **22/05/2026**
+- Carrinho abre em **05/06/2026**
+- Expectativa realista até **05/06/2026**: **300 integrantes qualificados no grupo**
+- Meta operacional até **05/06/2026**: **500 integrantes qualificados no grupo**
+- A meta de 500 orienta esforço. A expectativa de 300 orienta planejamento conservador.
+- Fechamento definido por queda de velocidade de vendas e demanda residual, não por data fixa.
 - Preço recomendado: **R$247**

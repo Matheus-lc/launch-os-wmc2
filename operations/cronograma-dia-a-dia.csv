@@ -1,27 +1,25 @@
 date,phase,owner,area,task,priority,status,notes
-2026-05-25,pre,Marketing,Conteúdo,Publicar carrossel de tese,alta,pendente,CTA para lista de interesse
-2026-05-25,pre,Programação,Site,Criar primeira versão da página do grupo,alta,pendente,Mobile primeiro
-2026-05-26,pre,Marketing,WhatsApp,Criar Comunidade e grupo principal,alta,pendente,Fixar regras
-2026-05-26,pre,Programação,Kiwify,Criar produto WMC 2,alta,pendente,Preço R$247
-2026-05-27,pre,Mr.Saizen,YouTube,Gravar vídeo principal,alta,pendente,Tese sobre treino avançado
-2026-05-27,pre,Suporte,FAQ,Levantar objeções recorrentes,média,pendente,Usar DMs e comentários
-2026-05-28,pre,Marketing,Conteúdo,Publicar prova ou bastidor autorizado,alta,pendente,Sem overclaim
-2026-05-28,pre,Programação,Checkout,Testar checkout Kiwify,alta,pendente,Desktop e mobile
-2026-05-29,pre,Marketing,YouTube,Publicar vídeo principal,alta,pendente,CTA para grupo
-2026-05-29,pre,Coordenação,Métricas,Atualizar dashboard_base.csv,média,pendente,Registrar entradas no grupo
-2026-05-30,pre,Marketing,WhatsApp,Enviar mini-aula no grupo,alta,pendente,Pergunta ao final
-2026-05-31,pre,Coordenação,Operação,Revisar plano de abertura,alta,pendente,Horários e responsáveis
-2026-06-01,pre,Marketing,Instagram,Publicar reel de tese,alta,pendente,CTA para grupo
-2026-06-01,pre,Coordenação,Compliance,Revisar página e anúncios,alta,pendente,Remover promessas fortes
-2026-06-02,pre,Marketing,WhatsApp,Avisar abertura amanhã,alta,pendente,Preparar expectativa
-2026-06-02,pre,Programação,Checkout,Teste final de compra,alta,pendente,Usar link real
-2026-06-03,abertura,Marketing,WhatsApp,Abrir oferta primeiro no grupo,crítica,pendente,Enviar link da página
-2026-06-03,abertura,Marketing,Instagram,Publicar stories de abertura,alta,pendente,Depois do WhatsApp
-2026-06-03,abertura,Suporte,Atendimento,Responder dúvidas de compra,alta,pendente,Usar FAQ aprovado
-2026-06-04,carrinho,Marketing,Conteúdo,Publicar FAQ de objeções,alta,pendente,Sem venda agressiva
-2026-06-04,carrinho,Programação,Site,Checar conversão e cliques,alta,pendente,Ajustar se necessário
-2026-06-05,fechamento,Marketing,WhatsApp,Enviar lembretes finais,crítica,pendente,Manhã tarde noite
-2026-06-05,fechamento,Coordenação,Kiwify,Fechar carrinho,crítica,pendente,Horário definido
-2026-06-06,pos,Suporte,Entrega,Confirmar acesso dos compradores,alta,pendente,Resolver chamados
-2026-06-07,pos,Coordenação,Análise,Fechar relatório pós-lançamento,alta,pendente,Aprendizados e próximos passos
+2026-05-22,grupo_aberto,Marketing,WhatsApp,Abrir grupo oficial do WMC 2,crítica,pendente,Fixar regras e mensagem de boas-vindas
+2026-05-22,grupo_aberto,Coordenação,Métricas,Registrar membros iniciais do grupo,alta,pendente,Atualizar metas.csv e dashboard_base.csv
+2026-05-23,aquecimento,Marketing,Instagram,Publicar chamada direta para grupo,alta,pendente,CTA para grupo oficial
+2026-05-24,aquecimento,Marketing,Base quente,Convidar base existente para o grupo,alta,pendente,Sem spam e sem promessa agressiva
+2026-05-25,aquecimento,Marketing,Conteúdo,Publicar carrossel de tese,alta,pendente,CTA para grupo
+2026-05-25,aquecimento,Coordenação,Métricas,Calcular projeção 300/500,alta,pendente,Ativar compensação se projeção estiver abaixo de 300
+2026-05-26,aquecimento,Programação,Kiwify,Criar produto WMC 2 com checkout em rascunho,alta,pendente,Preço R$247
+2026-05-27,aquecimento,Mr.Saizen,YouTube,Gravar vídeo principal,alta,pendente,Tese sobre treino avançado
+2026-05-28,aquecimento,Marketing,Conteúdo,Publicar prova ou bastidor autorizado,alta,pendente,Sem overclaim
+2026-05-29,aquecimento,Marketing,YouTube,Publicar vídeo principal,alta,pendente,CTA para grupo
+2026-05-30,aquecimento,Marketing,WhatsApp,Enviar mini-aula no grupo,alta,pendente,Pergunta ao final
+2026-05-31,aquecimento,Coordenação,Métricas,Revisar média diária necessária até 05/06,alta,pendente,Comparar com 300 e 500
+2026-06-01,aquecimento,Marketing,Contingência,Ativar plano de compensação se projeção estiver abaixo de 300,crítica,pendente,Stories base quente prova e remarketing
+2026-06-02,aquecimento,Suporte,FAQ,Levantar objeções recorrentes,alta,pendente,Usar DMs comentários e grupo
+2026-06-03,aquecimento,Marketing,Instagram,Reforçar prova e diferença WMC1/WMC2,alta,pendente,Não prometer resultado garantido
+2026-06-04,vespera_carrinho,Programação,Checkout,Teste final de compra,crítica,pendente,Usar link real em mobile
+2026-06-04,vespera_carrinho,Coordenação,Compliance,Revisar mensagens de abertura,crítica,pendente,Checar claims e urgência
+2026-06-05,carrinho_aberto,Marketing,WhatsApp,Abrir carrinho primeiro no grupo,crítica,pendente,Enviar link da página
+2026-06-05,carrinho_aberto,Marketing,Instagram,Liberar oferta publicamente após WhatsApp,alta,pendente,Reforçar que o grupo recebeu primeiro
+2026-06-05,carrinho_aberto,Suporte,Atendimento,Responder dúvidas de compra,alta,pendente,Usar FAQ aprovado
+2026-06-06,carrinho_aberto,Coordenação,Métricas,Medir velocidade de vendas das últimas 24h,alta,pendente,Não fechar se demanda seguir saudável
+2026-06-07,carrinho_aberto,Marketing,Remarketing,Ativar recuperação se velocidade cair,alta,pendente,Prova FAQ carrinho abandonado
+2026-06-08,carrinho_aberto,Coordenação,Fechamento,Avaliar regra de fechamento por queda de velocidade,alta,pendente,Fechar apenas após critérios e tentativas
 

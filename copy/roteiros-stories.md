@@ -4,7 +4,7 @@
 
 1. "Qual parte da prescrição mais trava hoje?"
 2. Enquete: volume / intensidade / progressão / técnica avançada.
-3. "Vou usar as respostas para guiar o grupo do WMC 2."
+3. "Vou usar as respostas para guiar o grupo oficial do WMC 2."
 
 ## 2. Tese curta
 
@@ -16,7 +16,7 @@
 
 1. Mostrar tela ou trecho de gravação.
 2. "Curso gravado, curto e direto."
-3. "Abre primeiro no WhatsApp em 03/06."
+3. "O acesso libera primeiro no WhatsApp em 05/06."
 
 ## 4. Erro comum
 
@@ -42,11 +42,11 @@
 2. Contexto: "Feedback sobre clareza didática."
 3. "Sem promessa mágica. Só estudo sério."
 
-## 8. Abertura amanhã
+## 8. Preparação para 05/06
 
-1. "Amanhã o WMC 2 abre primeiro no WhatsApp."
+1. "Dia 05/06 o WMC 2 abre primeiro no WhatsApp."
 2. "Preço recomendado: R$247."
-3. "Quem está no grupo recebe primeiro."
+3. "Quem está no grupo recebe link e FAQ primeiro."
 
 ## 9. Abertura hoje
 
@@ -54,9 +54,8 @@
 2. "Curso técnico, curto e atualizado."
 3. CTA: "Link na bio."
 
-## 10. Fechamento
+## 10. Fechamento por janela
 
-1. "Último dia do carrinho."
+1. "Vamos encerrar esta janela para organizar entrega e suporte."
 2. "Se faz sentido estudar esse tema agora, o link fica ativo até [horário]."
-3. "Depois fecha."
-
+3. "Sem promessa. Só decisão técnica."

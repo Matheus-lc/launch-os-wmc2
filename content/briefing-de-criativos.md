@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Criar peças para captação, aquecimento, abertura e fechamento do WMC 2.
+Criar peças para captação do grupo, aquecimento, abertura do carrinho em 05/06 e manutenção da janela por velocidade de vendas.
 
 ## Tom
 
@@ -14,8 +14,8 @@ Técnico, didático, premium e provocativo. Sem gritaria visual, sem promessa mi
 - 2 reels de bastidor.
 - 4 carrosséis de aplicação.
 - 2 criativos de prova autorizada.
-- 3 stories de abertura.
-- 3 stories de fechamento.
+- 3 stories de chamada para o grupo oficial.
+- 3 stories de abertura do carrinho em 05/06.
 - 2 anúncios para grupo.
 - 2 anúncios de remarketing para página de vendas.
 
@@ -23,7 +23,8 @@ Técnico, didático, premium e provocativo. Sem gritaria visual, sem promessa mi
 
 - Nome WMC 2.
 - Mr.Saizen.
-- Data de abertura: 03/06/2026.
+- Grupo oficial abre em 22/05/2026.
+- Carrinho abre em 05/06/2026.
 - Preço quando for peça de venda: R$247.
 - CTA claro.
 
@@ -33,4 +34,4 @@ Técnico, didático, premium e provocativo. Sem gritaria visual, sem promessa mi
 - Antes/depois sem contexto.
 - Frases como "método secreto".
 - Urgência falsa.
-
+- Comunicar metas internas de integrantes.

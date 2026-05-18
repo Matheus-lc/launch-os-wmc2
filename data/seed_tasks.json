@@ -1,37 +1,55 @@
 [
   {
     "id": "task-001",
-    "date": "2026-05-25",
+    "date": "2026-05-22",
     "owner": "Marketing",
-    "area": "Conteúdo",
-    "task": "Publicar carrossel de tese e levar para o grupo",
-    "priority": "alta",
+    "area": "WhatsApp",
+    "task": "Abrir grupo oficial do WMC 2 e registrar membros do grupo diariamente",
+    "priority": "crítica",
     "status": "pendente"
   },
   {
     "id": "task-002",
-    "date": "2026-05-26",
-    "owner": "Programação",
-    "area": "Kiwify",
-    "task": "Criar produto WMC 2 com preço R$247",
+    "date": "2026-05-25",
+    "owner": "Coordenação",
+    "area": "Métricas",
+    "task": "Monitorar progresso até 300/500 membros e calcular média diária necessária até 05/06",
     "priority": "alta",
     "status": "pendente"
   },
   {
     "id": "task-003",
-    "date": "2026-06-03",
+    "date": "2026-06-01",
     "owner": "Marketing",
-    "area": "WhatsApp",
-    "task": "Abrir oferta primeiro no grupo",
+    "area": "Contingência",
+    "task": "Se projeção estiver abaixo de 300, ativar plano de compensação",
     "priority": "crítica",
     "status": "pendente"
   },
   {
     "id": "task-004",
-    "date": "2026-06-05",
+    "date": "2026-06-03",
+    "owner": "Marketing",
+    "area": "Aquecimento",
+    "task": "Se projeção estiver entre 300 e 500, manter aquecimento e preparar abertura",
+    "priority": "alta",
+    "status": "pendente"
+  },
+  {
+    "id": "task-005",
+    "date": "2026-06-04",
     "owner": "Coordenação",
-    "area": "Fechamento",
-    "task": "Fechar carrinho e registrar números finais",
+    "area": "Prova",
+    "task": "Se projeção passar de 500, reforçar antecipação e prova sem abrir carrinho antes de 05/06",
+    "priority": "média",
+    "status": "pendente"
+  },
+  {
+    "id": "task-006",
+    "date": "2026-06-05",
+    "owner": "Marketing",
+    "area": "Carrinho",
+    "task": "Abrir carrinho primeiro no WhatsApp e registrar origem das vendas",
     "priority": "crítica",
     "status": "pendente"
   }

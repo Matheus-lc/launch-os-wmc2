@@ -3,8 +3,12 @@
 ## Estratégia - responsável: coordenação
 
 - [ ] Confirmar preço final de R$247.
-- [ ] Confirmar abertura em 03/06/2026.
-- [ ] Confirmar fechamento em 05/06/2026.
+- [ ] Confirmar abertura do grupo de WhatsApp em 22/05/2026.
+- [ ] Confirmar abertura do carrinho em 05/06/2026.
+- [ ] Confirmar que o fechamento será decidido por velocidade de vendas, demanda residual e esforço operacional.
+- [ ] Confirmar expectativa realista de 300 integrantes qualificados até 05/06.
+- [ ] Confirmar meta operacional de 500 integrantes qualificados até 05/06.
+- [ ] Confirmar que o grupo não será tratado como única fonte de vendas.
 - [ ] Confirmar que o WMC1 entra apenas como order bump.
 - [ ] Confirmar que não haverá upsell obrigatório.
 
@@ -18,20 +22,22 @@
 
 ## Página e checkout - responsável: programação
 
-- [ ] Publicar página do grupo.
-- [ ] Publicar página de vendas.
+- [ ] Publicar página do grupo antes de 22/05.
+- [ ] Publicar página de vendas antes de 05/06.
 - [ ] Testar botão principal em mobile.
-- [ ] Configurar Kiwify.
-- [ ] Testar compra.
+- [ ] Configurar produto na Kiwify.
+- [ ] Testar compra real ou compra sandbox, conforme disponibilidade.
 - [ ] Conferir entrega do acesso.
+- [ ] Preparar link alternativo caso a página principal falhe.
 
 ## Conteúdo - responsável: marketing
 
-- [ ] Finalizar calendário de posts.
+- [ ] Finalizar calendário de posts de 22/05 a 05/06.
 - [ ] Produzir carrosséis principais.
 - [ ] Produzir reels de tese e bastidor.
-- [ ] Preparar stories de abertura.
-- [ ] Preparar stories de fechamento.
+- [ ] Preparar stories de chamada para o grupo.
+- [ ] Preparar stories de abertura do carrinho em 05/06.
+- [ ] Preparar mensagens de manutenção do carrinho por velocidade.
 
 ## Suporte - responsável: suporte
 
@@ -41,6 +47,14 @@
 - [ ] Criar planilha de dúvidas recorrentes.
 - [ ] Escalar dúvidas técnicas ao Saizen.
 
+## Métricas - responsável: coordenação
+
+- [ ] Registrar membros do grupo diariamente.
+- [ ] Calcular projeção para 300 e 500 até 05/06.
+- [ ] Ativar compensação se a projeção ficar abaixo de 300.
+- [ ] Medir origem das vendas por grupo, Instagram, base quente, remarketing e página.
+- [ ] Medir velocidade de vendas após abertura do carrinho.
+
 ## Compliance - responsável: coordenação
 
 - [ ] Revisar claims de página.
@@ -48,4 +62,3 @@
 - [ ] Revisar mensagens de WhatsApp.
 - [ ] Garantir que provas tenham autorização.
 - [ ] Remover promessas de resultado garantido.
-

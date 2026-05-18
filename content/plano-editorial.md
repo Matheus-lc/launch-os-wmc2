@@ -22,5 +22,4 @@ Exemplo: "Antes de adicionar uma técnica intensificadora, responda estas 3 perg
 
 Função: converter intenção em ação. A oferta aparece como consequência natural da tese, não como pressão.
 
-Exemplo: "Se você quer estudar essa lógica em uma estrutura curta e direta, o WMC 2 abre dia 03/06 primeiro no WhatsApp."
-
+Exemplo: "Se você quer estudar essa lógica em uma estrutura curta e direta, entre no grupo oficial do WMC 2. O acesso será liberado primeiro ali em 05/06."

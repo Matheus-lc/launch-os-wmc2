@@ -4,7 +4,7 @@
 
 Gancho: "Fazer mais não te torna avançado."
 Corpo: "Mais séries, mais técnica e mais fadiga podem só esconder falta de critério."
-CTA: "O WMC 2 abre dia 03/06. Entra no grupo."
+CTA: "Entre no grupo oficial do WMC 2. O acesso libera primeiro lá em 05/06."
 
 ## 2. Fadiga
 
@@ -22,19 +22,19 @@ CTA: "Link do grupo na bio."
 
 Gancho: "Drop-set não salva treino sem lógica."
 Corpo: "Técnica avançada precisa resolver um problema específico."
-CTA: "WMC 2 abre em 03/06."
+CTA: "WMC 2 abre em 05/06."
 
 ## 5. Volume
 
 Gancho: "Mais volume pode ser a resposta errada."
 Corpo: "Antes de aumentar, olhe recuperação, progressão e objetivo."
-CTA: "Entra no grupo para acompanhar a abertura."
+CTA: "Entre no grupo para acompanhar a preparação."
 
 ## 6. Bastidor
 
 Gancho: "O WMC 2 foi feito para ir direto ao ponto."
 Corpo: "Curso curto, gravado e técnico. Sem enrolação, sem promessa mágica."
-CTA: "Abertura primeiro no WhatsApp."
+CTA: "Abertura primeiro no WhatsApp em 05/06."
 
 ## 7. Critério
 
@@ -52,11 +52,10 @@ CTA: "Grupo do WMC 2 na bio."
 
 Gancho: "Prescrição também envelhece."
 Corpo: "Se o seu repertório não atualiza, você começa a defender hábito como se fosse método."
-CTA: "WMC 2 abre dia 03/06."
+CTA: "WMC 2 libera acesso em 05/06."
 
 ## 10. Oferta discreta
 
 Gancho: "Se você quer estudar treino avançado com mais critério..."
 Corpo: "O WMC 2 abre em uma janela curta, primeiro para o grupo."
 CTA: "Entre agora pelo link da bio."
-

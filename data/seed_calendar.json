@@ -1,33 +1,33 @@
 [
   {
+    "date": "2026-05-22",
+    "phase": "grupo_aberto",
+    "title": "Abertura do grupo oficial",
+    "deliverable": "Grupo WhatsApp aberto, regras fixadas e primeira mensagem enviada"
+  },
+  {
     "date": "2026-05-25",
-    "phase": "pré-lançamento",
-    "title": "Início do aquecimento operacional",
-    "deliverable": "Carrossel de tese e página do grupo em rascunho"
+    "phase": "aquecimento",
+    "title": "Primeira leitura de projeção 300/500",
+    "deliverable": "Média diária registrada e plano de compensação pronto se abaixo de 300"
   },
   {
-    "date": "2026-05-29",
-    "phase": "pré-lançamento",
-    "title": "Vídeo principal no YouTube",
-    "deliverable": "Vídeo publicado com CTA para WhatsApp"
+    "date": "2026-06-01",
+    "phase": "aquecimento",
+    "title": "Semana de abertura do carrinho",
+    "deliverable": "FAQ, provas e sequência de abertura revisados"
   },
   {
-    "date": "2026-06-02",
-    "phase": "pré-lançamento",
-    "title": "Véspera de abertura",
-    "deliverable": "Checkout testado e mensagem de abertura pronta"
-  },
-  {
-    "date": "2026-06-03",
-    "phase": "abertura",
-    "title": "Abertura do WMC 2",
-    "deliverable": "Oferta enviada primeiro no WhatsApp"
+    "date": "2026-06-04",
+    "phase": "vespera_carrinho",
+    "title": "Véspera da abertura",
+    "deliverable": "Checkout testado e mensagens de abertura aprovadas"
   },
   {
     "date": "2026-06-05",
-    "phase": "fechamento",
-    "title": "Fechamento do carrinho",
-    "deliverable": "Carrinho fechado e relatório inicial preenchido"
+    "phase": "carrinho_aberto",
+    "title": "Abertura do carrinho do WMC 2",
+    "deliverable": "Oferta enviada primeiro no WhatsApp e depois liberada nos canais públicos"
   }
 ]
 

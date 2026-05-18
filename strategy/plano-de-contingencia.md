@@ -7,6 +7,7 @@
 3. Transformar a principal dúvida em mini-aula.
 4. Pedir resposta com número ou emoji simples.
 5. Reforçar CTA de abertura sem vender pesado.
+6. Se a projeção estiver abaixo de 300 até 05/06, ativar stories, base quente, prova, bastidor, remarketing e revisão da página.
 
 ## Página ruim
 
@@ -32,13 +33,22 @@
 4. Verificar entrega automática.
 5. Acionar suporte Kiwify se houver erro real.
 
-## Abertura sem vendas
+## Carrinho aberto sem vendas
 
 1. Validar se o link abriu corretamente.
 2. Checar cliques.
 3. Enviar FAQ curto.
 4. Publicar prova autorizada.
 5. Gravar story simples do Saizen explicando para quem é.
+
+## Fechamento por queda de velocidade
+
+1. Medir vendas e receita das últimas 24h.
+2. Checar se vendas ficaram abaixo de 5 por 2 dias consecutivos.
+3. Confirmar se receita ficou abaixo de R$1.235 por 2 dias consecutivos.
+4. Verificar se grupo e Instagram ainda geram dúvidas relevantes.
+5. Fazer pelo menos duas tentativas de recuperação.
+6. Só então preparar comunicação de fechamento real.
 
 ## Problema técnico
 
@@ -47,4 +57,3 @@
 3. Registrar prints do erro.
 4. Atualizar página se o erro for no site.
 5. Não criar desconto por pânico sem decisão do coordenador.
-

@@ -7,12 +7,14 @@
 3. Programadores verificam página, links, pixel e checkout.
 4. Suporte revisa perguntas abertas e atualiza FAQ.
 5. Todos olham `metrics/dashboard_base.csv` e definem o gargalo do dia.
+6. Coordenação confere progresso do grupo contra expectativa realista de 300 e meta operacional de 500 até 05/06.
 
 ## Rotina do coordenador
 
 - Definir prioridade única do dia.
 - Remover tarefas que não ajudam abertura, grupo, venda ou suporte.
 - Verificar se as mensagens do WhatsApp estão coerentes com o momento.
+- Se a projeção estiver abaixo de 300, ativar plano de compensação.
 - Fechar o dia com status, aprendizados e próximos bloqueios.
 
 ## Rotina do marketing
@@ -21,6 +23,7 @@
 - Adaptar a tese para stories e WhatsApp.
 - Revisar CTA: entrar no grupo no pré, acessar checkout na abertura.
 - Medir salvamentos, respostas, cliques e entradas no grupo.
+- Não tratar 300 a 500 integrantes como fracasso; é o cenário operacional esperado.
 
 ## Rotina dos programadores
 
@@ -52,4 +55,3 @@ Tudo que for produzido deve passar por:
 - Preencher `metrics/daily_log.csv`.
 - Registrar gargalo principal.
 - Escolher primeira ação de amanhã.
-

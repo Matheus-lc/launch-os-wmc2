@@ -2,7 +2,7 @@
 
 ## Papel no pré-lançamento
 
-O Instagram deve gerar reconhecimento de problema e levar interessados para o WhatsApp. O feed prova autoridade; os stories criam rotina; os reels abrem alcance.
+O Instagram deve gerar reconhecimento de problema, levar interessados para o WhatsApp e sustentar vendas depois da abertura do carrinho. O feed prova autoridade; os stories criam rotina; os reels abrem alcance. Com grupo entre 300 e 500 integrantes, Instagram e base quente precisam compensar a escala limitada do WhatsApp.
 
 ## Tipos de conteúdo
 
@@ -21,7 +21,7 @@ O Instagram deve gerar reconhecimento de problema e levar interessados para o Wh
 ## CTAs recomendados
 
 - "Entre no grupo do WMC 2."
-- "Quer a abertura primeiro? Link na bio."
+- "Quer receber o acesso primeiro em 05/06? Link na bio."
 - "Vou aprofundar isso no WhatsApp."
 - "Comente WMC se quer o link do grupo."
 
@@ -32,4 +32,3 @@ O Instagram deve gerar reconhecimento de problema e levar interessados para o Wh
 - Story com desespero de venda.
 - Copy genérica de guru.
 - Explicação longa sem CTA.
-

@@ -2,7 +2,7 @@
 
 ## Orçamento baixo
 
-Usar Meta Ads como apoio, não como motor principal. Recomendação inicial: R$50 a R$150 por dia durante os dias críticos, ajustando conforme CPL e qualidade do grupo.
+Usar Meta Ads como apoio, não como motor principal. Recomendação inicial: R$50 a R$150 por dia durante os dias críticos, ajustando conforme CPL, qualidade do grupo e projeção para 300/500 integrantes até 05/06.
 
 ## Divisão de orçamento
 
@@ -26,7 +26,7 @@ Usar Meta Ads como apoio, não como motor principal. Recomendação inicial: R$5
 
 ## Remarketing
 
-Na abertura, remarketing deve levar para página de vendas ou checkout. Antes da abertura, deve levar para o grupo.
+Antes de 05/06, remarketing deve levar para o grupo. A partir da abertura do carrinho em 05/06, remarketing deve levar para página de vendas ou checkout.
 
 ## Métricas de alerta
 
@@ -34,6 +34,7 @@ Na abertura, remarketing deve levar para página de vendas ou checkout. Antes da
 - CTR abaixo de 0,8%.
 - Frequência acima de 3 sem melhora de clique.
 - Muitos cliques e poucas entradas no grupo.
+- Projeção abaixo de 300 integrantes até 05/06.
 
 ## O que testar primeiro
 
@@ -41,4 +42,3 @@ Na abertura, remarketing deve levar para página de vendas ou checkout. Antes da
 2. Criativo com bastidor do curso.
 3. Criativo com pergunta provocativa.
 4. Criativo com convite simples para abertura no WhatsApp.
-

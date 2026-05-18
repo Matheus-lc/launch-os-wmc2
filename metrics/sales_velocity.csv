@@ -1,0 +1,6 @@
+date,carts_started,sales_24h,revenue_24h,checkout_conversion,abandoned_carts,remarketing_roas,demand_signal,status,action
+2026-06-05,240,32,7904,0.133,90,2.4,alto,manter_carrinho,Responder dúvidas e reforçar FAQ
+2026-06-06,180,18,4446,0.100,70,2.0,medio,manter_carrinho,Publicar prova e recuperar carrinhos
+2026-06-07,90,7,1729,0.078,48,1.4,baixo,alerta,Ativar tentativa de recuperação 1
+2026-06-08,60,4,988,0.067,35,0.9,baixo,preparar_fechamento,Ativar tentativa de recuperação 2 antes de fechar
+

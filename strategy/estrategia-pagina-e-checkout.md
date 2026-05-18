@@ -13,6 +13,8 @@ Blocos:
 5. Regras de qualidade.
 6. Botão para WhatsApp.
 
+Observação: a página do grupo deve capturar interessados qualificados, não prometer que o tamanho do grupo garante resultado. A meta operacional é 500 integrantes e a expectativa realista é 300.
+
 ## Página de vendas
 
 Objetivo: organizar a decisão de compra.
@@ -39,6 +41,8 @@ Ordem dos blocos:
 - Texto escaneável.
 - Prova perto da oferta.
 - Checkout com menor número possível de campos.
+- Carrinho abre em 05/06/2026.
+- Fechamento deve ser comunicado por janela real de entrada e queda de velocidade, não por escassez falsa.
 
 ## Checklist do checkout
 
@@ -59,4 +63,3 @@ Ordem dos blocos:
 - Configurar order bump WMC1.
 - Testar compra.
 - Conferir entrega automática.
-

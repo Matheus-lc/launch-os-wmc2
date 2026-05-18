@@ -8,6 +8,7 @@
 - Não inventar prova social.
 - Não usar urgência falsa.
 - Não afirmar que o curso substitui formação formal.
+- Não comunicar metas internas do grupo como condição pública de abertura.
 
 ## Overclaims proibidos
 
@@ -35,14 +36,16 @@
 
 Urgência real:
 
-- Carrinho abre em 03/06/2026.
-- Carrinho fecha em 05/06/2026.
+- Grupo oficial abre em 22/05/2026.
+- Carrinho abre em 05/06/2026.
+- Fechamento comunicado por motivo operacional real: queda de velocidade, demanda residual, entrega e suporte.
 
 Urgência falsa:
 
 - Dizer "últimas vagas" sem limite real.
 - Dizer "nunca mais" sem decisão final.
 - Criar contagem regressiva que reinicia.
+- Dizer que o carrinho só abre se o grupo bater uma meta pública.
 
 ## Linguagem segura para fitness e educação
 
@@ -57,4 +60,3 @@ Urgência falsa:
 O curso não substitui graduação, pós-graduação, habilitação formal, acompanhamento individual ou responsabilidade profissional.
 
 Não se deve prometer resultado físico garantido nem renda garantida em posts, anúncios, página, WhatsApp ou atendimento.
-

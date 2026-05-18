@@ -28,10 +28,11 @@ Faixa aceitável: R$200 a R$250. O preço recomendado preserva percepção premi
 
 O grupo deve ser usado como ambiente de aquecimento e abertura. Recomendação:
 
-- Entrada no pré-lançamento até 02/06/2026.
-- Abertura da oferta em 03/06/2026.
-- Suporte de dúvidas até fechamento em 05/06/2026.
-- Depois do fechamento, migrar apenas comunicações essenciais para pós-lançamento.
+- Abertura do grupo em 22/05/2026.
+- Aquecimento até 04/06/2026.
+- Abertura do carrinho em 05/06/2026.
+- Suporte de dúvidas enquanto houver demanda residual e velocidade saudável.
+- Depois do fechamento por queda de velocidade, migrar apenas comunicações essenciais para pós-lançamento.
 
 ## Lógica do order bump WMC1
 
@@ -40,4 +41,3 @@ O WMC1 pode entrar como order bump para quem quer contexto anterior. A oferta de
 ## Por que não usar upsell neste lançamento
 
 Upsell aumenta fricção, copy, páginas, suporte, testes e risco técnico. Para uma equipe pequena, o foco deve ser vender bem o produto principal e usar apenas um order bump simples.
-
