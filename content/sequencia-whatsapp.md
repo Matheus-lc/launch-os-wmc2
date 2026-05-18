@@ -80,16 +80,10 @@ Ação:
 - Mensagem: "Técnica avançada sem leitura de contexto vira ruído. O método precisa explicar a decisão, não decorar a planilha."
 - Ação: publicar um exemplo técnico simples.
 
-## 03/06/2026
-
-- Tema: prova e FAQ.
-- Mensagem: "Hoje vou organizar as principais dúvidas que apareceram no grupo para deixar a abertura de 05/06 mais clara."
-- Ação: publicar FAQ com objeções reais.
-
 ## 04/06/2026
 
 - Tema: abertura amanhã.
-- Mensagem: "Amanhã o WMC 2 abre primeiro aqui. Vou mandar o link, o que está incluso, o preço e o FAQ."
+- Mensagem: "Amanhã o WMC 2 abre primeiro aqui. Vou mandar o link, o que está incluso, o preço e o FAQ. Hoje vou organizar as principais dúvidas que apareceram no grupo."
 - Ação: confirmar suporte e link.
 
 ## 05/06/2026

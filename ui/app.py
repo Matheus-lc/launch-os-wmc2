@@ -33,7 +33,6 @@ def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
-@st.cache_data(show_spinner=False)
 def read_csv(path: str) -> pd.DataFrame:
     file_path = Path(path)
     if not file_path.exists():
@@ -41,7 +40,6 @@ def read_csv(path: str) -> pd.DataFrame:
     return pd.read_csv(file_path)
 
 
-@st.cache_data(show_spinner=False)
 def read_json(path: str):
     file_path = Path(path)
     if not file_path.exists():
@@ -51,7 +49,6 @@ def read_json(path: str):
 
 def save_schedule(df: pd.DataFrame) -> None:
     df.to_csv(OPS_CSV, index=False, encoding="utf-8")
-    st.cache_data.clear()
 
 
 def load_css() -> None:

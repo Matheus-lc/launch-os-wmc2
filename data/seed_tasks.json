@@ -28,7 +28,7 @@
   },
   {
     "id": "task-004",
-    "date": "2026-06-03",
+    "date": "2026-06-04",
     "owner": "Marketing",
     "area": "Aquecimento",
     "task": "Se projeção estiver entre 300 e 500, manter aquecimento e preparar abertura",
@@ -54,4 +54,3 @@
     "status": "pendente"
   }
 ]
-

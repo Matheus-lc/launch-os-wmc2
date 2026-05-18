@@ -77,16 +77,12 @@
 - Preparar mensagens de abertura do carrinho.
 - Testar checkout e UTMs.
 
-### 2026-06-03, quarta-feira
-
-- Reforçar diferença entre WMC1 e WMC2.
-- Publicar prova forte.
-- Coletar dúvidas finais no grupo.
-
 ### 2026-06-04, quinta-feira
 
 - Avisar que o carrinho abre amanhã primeiro no grupo.
 - Revisar página, checkout, order bump e compliance.
+- Reforçar diferença entre WMC1 e WMC2.
+- Publicar prova forte e coletar dúvidas finais no grupo.
 - Preparar sequência forte de Instagram para 05/06.
 
 ## Abertura do carrinho
