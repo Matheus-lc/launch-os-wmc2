@@ -57,5 +57,5 @@ CTA: "WMC 2 libera acesso em 05/06."
 ## 10. Oferta discreta
 
 Gancho: "Se você quer estudar treino avançado com mais critério..."
-Corpo: "O WMC 2 abre em uma janela curta, primeiro para o grupo."
-CTA: "Entre agora pelo link da bio."
+Corpo: "O WMC 2 abre oficialmente em 05/06, primeiro para o grupo."
+CTA: "Entre pelo link da bio."

@@ -1,5 +1,16 @@
 date,phase,realistic_daily_target,operational_daily_target,group_members_actual,realistic_cumulative_target,operational_cumulative_target,cumulative_actual,status,action
 2026-05-22,grupo_aberto,22,36,0,22,36,0,pendente,Abrir grupo oficial e registrar base inicial
+2026-05-23,aquecimento,22,36,0,44,72,0,pendente,Publicar CTA para grupo e registrar entradas reais
+2026-05-24,aquecimento,22,36,0,66,108,0,pendente,Convidar base quente sem spam
+2026-05-25,aquecimento,22,36,0,88,144,0,pendente,Calcular projeção 300/500
+2026-05-26,aquecimento,22,36,0,110,180,0,pendente,Reforçar stories e criativos de entrada
+2026-05-27,aquecimento,22,36,0,132,216,0,pendente,Puxar YouTube e Instagram para grupo
+2026-05-28,aquecimento,22,36,0,154,252,0,pendente,Publicar prova ou bastidor autorizado
 2026-05-29,aquecimento,22,36,0,176,288,0,pendente,Conferir se ritmo está levando a 300/500 até 05/06
-2026-06-04,vespera_carrinho,22,36,0,300,500,0,pendente,Fechar sequência de abertura do carrinho
-2026-06-05,carrinho_aberto,22,36,0,300,500,0,pendente,Abrir carrinho primeiro no WhatsApp
+2026-05-30,aquecimento,22,36,0,198,324,0,pendente,Enviar mini-aula e medir interação
+2026-05-31,aquecimento,22,36,0,220,360,0,pendente,Revisar média diária necessária até 05/06
+2026-06-01,aquecimento,22,36,0,242,396,0,pendente,Ativar compensação se projeção estiver abaixo de 300
+2026-06-02,aquecimento,22,36,0,264,432,0,pendente,Coletar dúvidas e preparar FAQ
+2026-06-03,aquecimento,22,36,0,286,468,0,pendente,Reforçar prova e diferença WMC1/WMC2
+2026-06-04,vespera_carrinho,14,32,0,300,500,0,pendente,Finalizar sequência de abertura do carrinho
+2026-06-05,carrinho_aberto,0,0,0,300,500,0,pendente,Abrir carrinho primeiro no WhatsApp

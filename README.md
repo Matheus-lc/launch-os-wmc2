@@ -13,7 +13,7 @@ O objetivo é transformar o lançamento em uma rotina executável: poucas ferram
   .gitignore
   /docs          Visão geral, plano imediato, uso diário e perguntas em aberto
   /strategy      Estratégia do lançamento, canais, oferta, calendário e contingências
-  /operations    Checklists, responsabilidades, rituais e cronograma
+  /operations    Checklists, responsáveis, rituais e cronograma
   /content       Plano editorial, WhatsApp, YouTube, provas e briefings
   /copy          Promessas, anúncios, roteiros, WhatsApp, FAQ e revisão
   /offer         Oferta final, order bump, garantia, urgência e FAQ
@@ -31,10 +31,10 @@ A equipe deve abrir este repositório no início do dia, olhar as tarefas do cal
 
 Arquivos fonte de verdade:
 
-- Estratégia: `strategy/diagnostico.md`, `strategy/funil-e-canais.md`, `strategy/calendario-junho-2026.md`
+- Estratégia: `strategy/diagnostico.md`, `strategy/funil-e-canais.md`, `strategy/calendario-operacional-maio-junho-2026.md`, `strategy/regras-de-abertura-e-manutencao.md`
 - Operação: `operations/cronograma-dia-a-dia.csv`, `operations/checklist-geral.md`, `operations/rituais-diarios.md`
-- Oferta: `offer/oferta-principal.md`, `offer/order-bump-wmc1.md`
-- Métricas: `metrics/dashboard_base.csv`, `metrics/daily_log.csv`, `metrics/metas.csv`
+- Oferta: `offer/oferta-principal.md`, `offer/order-bump-wmc1.md`, `offer/garantia-e-urgencia.md`
+- Métricas: `metrics/dashboard_base.csv`, `metrics/daily_log.csv`, `metrics/metas.csv`, `metrics/post_opening_performance.csv`
 - Compliance: `compliance/guia-compliance.md`, `compliance/biblioteca-de-claims.md`
 - Assistente: `assistant/prompt-head-lancamento.md`
 
@@ -44,7 +44,7 @@ Arquivos fonte de verdade:
 2. Conferir `operations/cronograma-dia-a-dia.csv` e marcar o status das tarefas.
 3. Produzir conteúdo usando `content/sequencia-de-conteudo.md` e os templates em `templates/`.
 4. Revisar qualquer peça com `copy/checklist-revisao-de-copy.md` e `compliance/checklist-compliance.md`.
-5. Fechar o dia preenchendo `metrics/daily_log.csv` e usando `assistant/playbooks.md` se houver gargalo.
+5. Finalizar o dia preenchendo `metrics/daily_log.csv` e usando `assistant/playbooks.md` se houver gargalo.
 
 ## Como abrir a UI Streamlit
 
@@ -70,17 +70,6 @@ O projeto já está organizado para deploy no Streamlit Cloud:
 - Dependências: `requirements.txt` na raiz
 - Configuração visual: `.streamlit/config.toml`
 
-No Streamlit Community Cloud:
-
-1. Clique em `Create app`.
-2. Escolha `Yup, I have an app`.
-3. Informe o repositório `Matheus-lc/launch-os-wmc2`.
-4. Informe a branch `main`.
-5. Informe o arquivo principal `ui/app.py`.
-6. Em `Advanced settings`, use Python `3.12` se a opção aparecer.
-7. Não é necessário configurar secrets para o uso básico.
-8. Clique em `Deploy`.
-
 ## Decisão estratégica resumida
 
 O modelo recomendado é um pré-lançamento orgânico curto com grupo de WhatsApp aberto em 22/05/2026, aquecimento até 04/06/2026, abertura do carrinho em 05/06/2026 primeiro no WhatsApp e liberação pública depois no Instagram. A venda é técnica, indireta e baseada em autoridade, prova e clareza de aplicação.
@@ -92,5 +81,33 @@ Datas principais:
 - Expectativa realista até **05/06/2026**: **300 integrantes qualificados no grupo**
 - Meta operacional até **05/06/2026**: **500 integrantes qualificados no grupo**
 - A meta de 500 orienta esforço. A expectativa de 300 orienta planejamento conservador.
-- Fechamento definido por queda de velocidade de vendas e demanda residual, não por data fixa.
 - Preço recomendado: **R$247**
+
+## Sem fechamento planejado
+
+O WMC 2 não terá fechamento planejado.
+
+Datas oficiais:
+
+- 22/05/2026: abertura do grupo de WhatsApp.
+- 05/06/2026: abertura do carrinho.
+
+Após 05/06, o produto permanece disponível, salvo decisão manual posterior da equipe.
+
+O Launch OS não deve usar:
+
+- fechamento por data;
+- fechamento por queda de velocidade;
+- última chance;
+- escassez de carrinho;
+- encerramento de janela.
+
+Após a abertura, o foco é:
+
+- sustentação de vendas;
+- prova;
+- remarketing;
+- recuperação de checkout;
+- resposta a dúvidas;
+- otimização da página;
+- conteúdo técnico.

@@ -10,7 +10,8 @@ Data oficial: 05/06/2026.
 - [ ] Confirmar horário de abertura no WhatsApp.
 - [ ] Conferir se a página de vendas está publicada.
 - [ ] Confirmar que a página não promete resultado físico, renda ou vaga falsa.
-- [ ] Avisar equipe sobre janela de suporte.
+- [ ] Avisar equipe sobre turno de suporte.
+- [ ] Reforçar internamente que não existe fechamento planejado.
 
 ## WhatsApp - responsável: marketing
 
@@ -44,3 +45,4 @@ Data oficial: 05/06/2026.
 - [ ] Registrar dúvidas por categoria.
 - [ ] Separar vendas por origem: grupo, Instagram, base quente, remarketing e outros.
 - [ ] Acionar plano B se houver cliques sem venda.
+- [ ] Definir a primeira ação de sustentação para 06/06.

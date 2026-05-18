@@ -34,5 +34,4 @@ Existe espaço para posicionar o WMC 2 como atualização técnica compacta para
 
 ## Leitura final do caso
 
-O caminho mais forte é um lançamento curto, direto, com venda indireta: ensinar primeiro, formar critério, abrir para quem levantou a mão e fechar com urgência real. Menos espetáculo, mais precisão.
-
+O caminho mais forte é uma abertura curta, direta e com venda indireta: ensinar primeiro, formar critério, abrir para quem levantou a mão e sustentar a venda com prova, suporte e clareza. Menos espetáculo, mais precisão.

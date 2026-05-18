@@ -8,9 +8,9 @@
 
 O grupo oficial abre em 22/05/2026. O carrinho abre em 05/06/2026, primeiro no WhatsApp.
 
-## Quando fecha?
+## O produto permanece disponível?
 
-O fechamento será decidido por velocidade de vendas, demanda residual e capacidade de suporte. Não usar uma data fixa sem decisão operacional.
+Sim. Não existe encerramento planejado do carrinho. O WMC 2 permanece disponível após a abertura, salvo decisão manual posterior da equipe.
 
 ## Qual o preço?
 

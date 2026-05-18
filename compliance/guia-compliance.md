@@ -9,6 +9,7 @@
 - Não usar urgência falsa.
 - Não afirmar que o curso substitui formação formal.
 - Não comunicar metas internas do grupo como condição pública de abertura.
+- Não comunicar encerramento de carrinho sem decisão manual real e documentada.
 
 ## Overclaims proibidos
 
@@ -34,11 +35,14 @@
 
 ## Urgência real versus falsa
 
-Urgência real:
+Urgência permitida:
 
 - Grupo oficial abre em 22/05/2026.
 - Carrinho abre em 05/06/2026.
-- Fechamento comunicado por motivo operacional real: queda de velocidade, demanda residual, entrega e suporte.
+- Acesso liberado primeiro para o grupo.
+- Começo da comunidade ou grupo de estudos, se estiver ativo.
+- Benefício de estudar antes e aplicar antes.
+- Custo de continuar prescrevendo com lógica confusa.
 
 Urgência falsa:
 
@@ -46,6 +50,7 @@ Urgência falsa:
 - Dizer "nunca mais" sem decisão final.
 - Criar contagem regressiva que reinicia.
 - Dizer que o carrinho só abre se o grupo bater uma meta pública.
+- Dizer que a compra precisa acontecer hoje se não houver prazo real.
 
 ## Linguagem segura para fitness e educação
 

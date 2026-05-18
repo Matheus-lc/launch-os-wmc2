@@ -1,4 +1,4 @@
-# Pós-lançamento
+# Pós-abertura
 
 ## Primeiras 24 horas
 
@@ -7,6 +7,7 @@
 - Exportar vendas da Kiwify.
 - Registrar faturamento, unidades e origem.
 - Enviar mensagem de boas-vindas aos alunos.
+- Mapear dúvidas e objeções recorrentes.
 
 ## Análise
 
@@ -14,7 +15,7 @@
 - Identificar melhor canal.
 - Identificar maior objeção.
 - Identificar melhor peça de conteúdo.
-- Registrar queda de conversão por etapa.
+- Registrar gargalos de conversão por etapa.
 
 ## Ativos para preservar
 
@@ -26,8 +27,7 @@
 
 ## Próximos caminhos
 
-- Venda evergreen simples com remarketing.
-- Nova janela curta para quem perdeu.
+- Manutenção ativa de vendas com remarketing.
+- Conteúdo técnico de sustentação para quem ainda está avaliando.
 - Atualização do WMC 2 com perguntas reais.
 - Sequência educativa para compradores.
-

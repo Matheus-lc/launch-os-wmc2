@@ -5,7 +5,7 @@
 - [ ] Confirmar preço final de R$247.
 - [ ] Confirmar abertura do grupo de WhatsApp em 22/05/2026.
 - [ ] Confirmar abertura do carrinho em 05/06/2026.
-- [ ] Confirmar que o fechamento será decidido por velocidade de vendas, demanda residual e esforço operacional.
+- [ ] Confirmar que não existe fechamento planejado do carrinho.
 - [ ] Confirmar expectativa realista de 300 integrantes qualificados até 05/06.
 - [ ] Confirmar meta operacional de 500 integrantes qualificados até 05/06.
 - [ ] Confirmar que o grupo não será tratado como única fonte de vendas.
@@ -37,7 +37,8 @@
 - [ ] Produzir reels de tese e bastidor.
 - [ ] Preparar stories de chamada para o grupo.
 - [ ] Preparar stories de abertura do carrinho em 05/06.
-- [ ] Preparar mensagens de manutenção do carrinho por velocidade.
+- [ ] Preparar mensagens de sustentação pós-abertura.
+- [ ] Preparar provas, FAQ e bastidores para manter vendas ativas.
 
 ## Suporte - responsável: suporte
 
@@ -53,7 +54,7 @@
 - [ ] Calcular projeção para 300 e 500 até 05/06.
 - [ ] Ativar compensação se a projeção ficar abaixo de 300.
 - [ ] Medir origem das vendas por grupo, Instagram, base quente, remarketing e página.
-- [ ] Medir velocidade de vendas após abertura do carrinho.
+- [ ] Medir performance pós-abertura para otimização, não para decisão de encerramento.
 
 ## Compliance - responsável: coordenação
 
@@ -62,3 +63,4 @@
 - [ ] Revisar mensagens de WhatsApp.
 - [ ] Garantir que provas tenham autorização.
 - [ ] Remover promessas de resultado garantido.
+- [ ] Remover qualquer urgência baseada em carrinho fechando.

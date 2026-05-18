@@ -8,9 +8,9 @@ Pode, mas não deve ser dependência do lançamento. Se fizer, trate como apoio,
 
 Pode como canal secundário, mas não como principal. O plano base é Instagram, YouTube e WhatsApp.
 
-## Podemos dar desconto no fechamento?
+## Podemos dar desconto depois da abertura?
 
-Evitar. Desconto de última hora treina o público a esperar e pode parecer improviso. Só usar se já estiver planejado.
+Evitar. Desconto improvisado treina o público a esperar e pode enfraquecer a percepção premium. Só usar se houver decisão estratégica documentada.
 
 ## O que responder quando perguntam se dá resultado?
 
@@ -24,3 +24,6 @@ Coordenação e Mr.Saizen. Não mudar preço por ansiedade operacional.
 
 Priorizar WhatsApp, página e checkout. Melhor publicar menos com qualidade do que espalhar peças fracas.
 
+## O que fazer se as vendas caírem após 05/06?
+
+Diagnosticar gargalo e otimizar: prova, página, checkout, remarketing, FAQ, stories e suporte. Não usar pressão artificial como atalho.

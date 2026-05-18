@@ -27,11 +27,12 @@ Curso gravado, técnico, curto e atualizado do Mr.Saizen para estudar construç�
 
 R$247.
 
-## Janela de venda
+## Abertura e disponibilidade
 
 - Grupo oficial abre em 22/05/2026.
 - Carrinho abre em 05/06/2026, primeiro no WhatsApp.
-- Fechamento definido por velocidade de vendas, demanda residual e capacidade operacional.
+- Produto permanece disponível após a abertura, salvo decisão manual posterior da equipe.
+- Não usar prazo de encerramento planejado como argumento de venda.
 
 ## Posicionamento de venda
 

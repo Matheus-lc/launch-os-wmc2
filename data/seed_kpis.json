@@ -2,14 +2,17 @@
   "price": 247,
   "group_open_date": "2026-05-22",
   "cart_open_date": "2026-06-05",
+  "planned_close_date": null,
+  "has_planned_close": false,
   "group_members_operational_target": 500,
   "group_members_realistic_target": 300,
   "daily_group_member_operational_target_min": 35,
   "daily_group_member_operational_target_max": 40,
   "daily_group_member_realistic_target": 22,
   "group_members_alert_threshold_daily": 20,
-  "launch_model": "fixed_group_open_fixed_cart_open_velocity_based_close",
-  "recommended_model": "Grupo abre em 22/05, carrinho abre em 05/06 e fechamento segue velocidade de vendas",
+  "launch_model": "fixed_group_open_fixed_cart_open_no_planned_close",
+  "post_opening_focus": "sustentacao_otimizacao_vendas",
+  "recommended_model": "Grupo abre em 22/05, carrinho abre em 05/06 e o produto permanece disponível após a abertura",
   "targets": {
     "realistic_group_members": 300,
     "operational_group_members": 500,
@@ -21,7 +24,6 @@
     "cpl_grupo": "até R$5",
     "conversao_grupo": "8% a 12%",
     "conversao_pagina": "2% a 6%",
-    "sales_velocity_close_alert": "menos de 5 vendas por 2 dias consecutivos"
+    "post_opening_performance": "otimizar prova, página, checkout, remarketing e suporte"
   }
 }
-

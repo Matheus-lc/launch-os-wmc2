@@ -94,6 +94,9 @@ Ação:
 
 ## Após 05/06/2026
 
-- Tema: manutenção da janela.
-- Mensagem: "A janela de entrada continua enquanto ainda houver demanda real e suporte operacional. Quem quiser entrar nesta turma pode finalizar pelo link: [inserir link]."
-- Ação: acompanhar velocidade de vendas e decidir fechamento com base em métricas.
+- Tema: sustentação pós-abertura.
+- Mensagem 1: "O acesso ao WMC 2 já está liberado. A prioridade começou por este grupo, como combinado. Agora o foco é tirar dúvidas reais sobre aplicação, estrutura das aulas e diferença entre o WMC 1 e o WMC 2."
+- Mensagem 2: "Para quem ainda está avaliando: isso não é uma planilha pronta nem um pacote de treinos. É estudo de método, prescrição e lógica aplicada."
+- Mensagem 3: "A dúvida que mais apareceu hoje foi sobre aplicação prática. O ponto central é: o WMC 2 mostra como pensar a construção do protocolo, não só repetir técnica isolada."
+- Mensagem 4: "Quem entrou deve assistir com atenção e usar o grupo para estudar. Quem ainda não entrou, leia a página com calma e veja se faz sentido para o seu momento."
+- Ação: acompanhar dúvidas, vendas, abandono de checkout e principal objeção para otimizar a comunicação seguinte.

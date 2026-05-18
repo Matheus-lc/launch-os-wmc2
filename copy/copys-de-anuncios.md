@@ -20,7 +20,7 @@
 
 7. "O curso está gravado para ir direto ao ponto: construção de treino, decisões e erros comuns. WMC 2 libera acesso em 05/06."
 
-8. "Sem live obrigatória, sem espetáculo. O WMC 2 será liberado em uma janela curta, começando pelo WhatsApp."
+8. "Sem live obrigatória, sem espetáculo. O WMC 2 será liberado oficialmente em 05/06, começando pelo WhatsApp."
 
 ## Ângulo aplicação
 
@@ -28,8 +28,8 @@
 
 10. "Técnica avançada sem leitura de contexto vira ruído. O WMC 2 organiza essa conversa em aulas curtas."
 
-## Ângulo urgência
+## Ângulo abertura
 
 11. "O WMC 2 abre em 05/06, primeiro no WhatsApp. Quem estiver no grupo recebe link, inclusões e FAQ antes da liberação pública."
 
-12. "Janela de entrada curta, conteúdo direto e preço recomendado de R$247. Entre no grupo oficial do WMC 2 para acompanhar a abertura."
+12. "Abertura oficial em 05/06, conteúdo direto e preço recomendado de R$247. Entre no grupo oficial do WMC 2 para acompanhar."

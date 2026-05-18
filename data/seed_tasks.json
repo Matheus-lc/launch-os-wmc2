@@ -52,5 +52,59 @@
     "task": "Abrir carrinho primeiro no WhatsApp e registrar origem das vendas",
     "priority": "crítica",
     "status": "pendente"
+  },
+  {
+    "id": "task-007",
+    "date": "2026-06-06",
+    "owner": "Coordenação",
+    "area": "Métricas",
+    "task": "Revisar performance pós-abertura e escolher a próxima otimização",
+    "priority": "alta",
+    "status": "pendente"
+  },
+  {
+    "id": "task-008",
+    "date": "2026-06-06",
+    "owner": "Marketing",
+    "area": "Prova",
+    "task": "Publicar prova ou bastidor autorizado para sustentar vendas",
+    "priority": "alta",
+    "status": "pendente"
+  },
+  {
+    "id": "task-009",
+    "date": "2026-06-07",
+    "owner": "Suporte",
+    "area": "FAQ",
+    "task": "Atualizar FAQ com dúvidas pós-abertura",
+    "priority": "alta",
+    "status": "pendente"
+  },
+  {
+    "id": "task-010",
+    "date": "2026-06-07",
+    "owner": "Marketing",
+    "area": "Remarketing",
+    "task": "Rodar remarketing e recuperar checkout abandonado sem agressividade",
+    "priority": "alta",
+    "status": "pendente"
+  },
+  {
+    "id": "task-011",
+    "date": "2026-06-08",
+    "owner": "Programação",
+    "area": "Página",
+    "task": "Otimizar página e checkout com base na principal objeção",
+    "priority": "alta",
+    "status": "pendente"
+  },
+  {
+    "id": "task-012",
+    "date": "2026-06-08",
+    "owner": "Marketing",
+    "area": "Stories",
+    "task": "Publicar stories de sustentação com prova, FAQ e por dentro do curso",
+    "priority": "alta",
+    "status": "pendente"
   }
 ]

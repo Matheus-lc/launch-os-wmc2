@@ -91,6 +91,16 @@ def fmt_money(value) -> str:
         return "R$0"
 
 
+def fmt_percent(value) -> str:
+    try:
+        numeric = float(value)
+        if numeric <= 1:
+            numeric *= 100
+        return f"{numeric:.1f}%".replace(".", ",")
+    except (TypeError, ValueError):
+        return "0,0%"
+
+
 def latest_row(df: pd.DataFrame) -> dict:
     if df.empty:
         return {}
@@ -129,6 +139,16 @@ def days_left_until_cart(as_of: date, cart_open: date) -> int:
 def daily_needed(current: int, target: int, as_of: date, cart_open: date) -> float:
     missing = max(target - current, 0)
     return missing / days_left_until_cart(as_of, cart_open)
+
+
+def phase_action(as_of: date, group_open: date, cart_open: date) -> str:
+    if as_of < group_open:
+        return "Preparar grupo, regras, página do grupo e primeira sequência de aquecimento."
+    if group_open <= as_of < cart_open:
+        return "Captar e aquecer: grupo, stories, prova, FAQ e preparação para 05/06."
+    if as_of == cart_open:
+        return "Abrir carrinho primeiro no WhatsApp, monitorar dúvidas e liberar no Instagram."
+    return "Sustentar vendas e otimizar: prova, remarketing, checkout, FAQ e objeções."
 
 
 def group_projection(current: int, as_of: date, group_open: date, cart_open: date) -> float:
@@ -339,7 +359,7 @@ with tabs[0]:
             day_tasks = schedule[schedule["status"].str.lower() != "concluído"].head(8).copy()
 
     priority_task = "Revisar cronograma e escolher o gargalo do dia."
-    next_action = "Atualizar status, publicar peça crítica e medir resposta."
+    next_action = phase_action(selected_date, group_open_date, cart_open_date)
     if not day_tasks.empty:
         sorted_tasks = day_tasks.sort_values(
             by="priority",
@@ -355,6 +375,15 @@ with tabs[0]:
         command_card("02", "GARGALO ATUAL", gargalo, gargalo_tone, "Se não está medido, está sendo imaginado.")
     with col_c:
         command_card("03", "PRÓXIMA AÇÃO EM 2 HORAS", next_action, "warning", "Comando curto. Execução visível.")
+
+    marker("LINHA DO TEMPO · SEM FECHAMENTO PLANEJADO")
+    timeline_cols = st.columns(3)
+    with timeline_cols[0]:
+        kpi_card("GRUPO ABRE", "22/05/2026", "PREPARAÇÃO", "neutral")
+    with timeline_cols[1]:
+        kpi_card("CARRINHO ABRE", "05/06/2026", "LANÇAMENTO", "warning" if selected_date <= cart_open_date else "ok")
+    with timeline_cols[2]:
+        kpi_card("PÓS-ABERTURA", "SUSTENTAÇÃO ATIVA", "OTIMIZAR", "ok")
 
     kpi_cols = st.columns(6)
     kpi_values = [
@@ -437,8 +466,8 @@ with tabs[1]:
         st.subheader("CRONOGRAMA COMPLETO")
         st.dataframe(schedule, width="stretch", hide_index=True)
 
-    marker("PLANO · JUNHO 2026")
-    st.markdown(read_text(ROOT / "strategy" / "calendario-junho-2026.md"))
+    marker("PLANO · MAIO/JUNHO 2026")
+    st.markdown(read_text(ROOT / "strategy" / "calendario-operacional-maio-junho-2026.md"))
 
 with tabs[2]:
     marker("CONTEÚDO · PROTOCOLO")
@@ -502,6 +531,34 @@ with tabs[3]:
         unsafe_allow_html=True,
     )
 
+    marker("PERFORMANCE PÓS-ABERTURA")
+    post_df = read_csv(str(ROOT / "metrics" / "post_opening_performance.csv"))
+    post_row = latest_row(post_df)
+    post_cols = st.columns(4)
+    with post_cols[0]:
+        kpi_card("VENDAS 24H", fmt_number(post_row.get("sales_24h", 0)), "OTIMIZAR", "neutral")
+    with post_cols[1]:
+        kpi_card("RECEITA 24H", fmt_money(post_row.get("gross_revenue_24h", 0)), "CAMPO REAL", "neutral")
+    with post_cols[2]:
+        kpi_card("CHECKOUT INICIADO 24H", fmt_number(post_row.get("checkout_started_24h", 0)), "FUNIL", "neutral")
+    with post_cols[3]:
+        kpi_card("CHECKOUT → COMPRA", fmt_percent(post_row.get("checkout_to_purchase_rate", 0)), "CONVERSÃO", "neutral")
+
+    post_cols_2 = st.columns(4)
+    with post_cols_2[0]:
+        kpi_card("CARRINHOS ABANDONADOS", fmt_number(post_row.get("abandoned_checkout_24h", 0)), "RECUPERAR", "warning")
+    with post_cols_2[1]:
+        kpi_card("ROAS REMARKETING", str(post_row.get("remarketing_roas", 0)), "ADS", "neutral")
+    with post_cols_2[2]:
+        kpi_card("DÚVIDAS SUPORTE", fmt_number(post_row.get("support_questions_24h", 0)), "OBJEÇÃO", "neutral")
+    with post_cols_2[3]:
+        kpi_card("AÇÃO RECOMENDADA", str(post_row.get("recommended_action", "publicar prova")), "SUSTENTAR", "warning")
+
+    st.markdown(
+        f'<div class="microcopy">Objeção principal: {post_row.get("main_objection", "não registrada")}.</div>',
+        unsafe_allow_html=True,
+    )
+
     metric_files = [
         "dashboard_base.csv",
         "metas.csv",
@@ -510,8 +567,8 @@ with tabs[3]:
         "scorecard-grupo.csv",
         "scorecard-ads.csv",
         "daily_log.csv",
-        "sales_velocity.csv",
-        "open_close_decision_rules.csv",
+        "post_opening_performance.csv",
+        "launch_decision_rules.csv",
     ]
     selected_metric = st.selectbox("ARQUIVO DE MÉTRICA", metric_files)
     metric_df = read_csv(str(ROOT / "metrics" / selected_metric))
@@ -573,8 +630,12 @@ with tabs[6]:
         "REVISE ESTA COPY.",
         "ESTAMOS ABAIXO DA PROJEÇÃO DE 300. O QUE FAZER?",
         "ESTAMOS ENTRE 300 E 500. COMO SEGUIR?",
-        "BATEMOS 500 ANTES DE 05/06. O QUE FAZER?",
-        "COM ESSE TAMANHO DE GRUPO, QUAL CENÁRIO DE VENDAS É REALISTA?",
+        "AS VENDAS CAÍRAM. O QUE OTIMIZAR?",
+        "O CHECKOUT INICIOU, MAS NÃO COMPROU. O QUE REVISAR?",
+        "QUAIS OBJEÇÕES ATACAR HOJE?",
+        "QUE PROVA PUBLICAR AGORA?",
+        "COMO SUSTENTAR VENDAS DEPOIS DA ABERTURA?",
+        "COMO RECUPERAR CARRINHO ABANDONADO SEM PARECER AGRESSIVO?",
     ]
     for index, command in enumerate(commands_fast):
         with cmd_cols[index % 3]:
@@ -589,7 +650,7 @@ with tabs[6]:
     st.subheader("MONTADOR DE CONSULTA")
     user_context = st.text_area(
         "COLE O CONTEXTO PARA O ASSISTENTE",
-        placeholder="Exemplo: o grupo tem 280 pessoas, interação caiu para 4%, tivemos 12 vendas e muitas dúvidas sobre WMC1.",
+        placeholder="Exemplo: o grupo está entre 300 e 500, há checkout iniciado sem compra e a principal objeção é diferença entre WMC1 e WMC2.",
         height=140,
     )
     if user_context:

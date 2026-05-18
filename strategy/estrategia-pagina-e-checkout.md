@@ -42,7 +42,7 @@ Ordem dos blocos:
 - Prova perto da oferta.
 - Checkout com menor número possível de campos.
 - Carrinho abre em 05/06/2026.
-- Fechamento deve ser comunicado por janela real de entrada e queda de velocidade, não por escassez falsa.
+- Produto permanece disponível após abertura, salvo decisão manual posterior da equipe.
 
 ## Checklist do checkout
 
@@ -53,6 +53,7 @@ Ordem dos blocos:
 - E-mail de acesso testado.
 - Pix, cartão e parcelamento conferidos.
 - Link testado no Instagram, WhatsApp e página.
+- Eventos de checkout iniciado e compra conferidos.
 
 ## Instruções para Kiwify
 

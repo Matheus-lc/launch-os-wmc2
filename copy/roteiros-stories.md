@@ -54,8 +54,8 @@
 2. "Curso técnico, curto e atualizado."
 3. CTA: "Link na bio."
 
-## 10. Fechamento por janela
+## 10. Sustentação pós-abertura
 
-1. "Vamos encerrar esta janela para organizar entrega e suporte."
-2. "Se faz sentido estudar esse tema agora, o link fica ativo até [horário]."
-3. "Sem promessa. Só decisão técnica."
+1. "Acesso liberado. Agora a pergunta é aplicação."
+2. "O WMC 2 não é pacote de treino. É lógica de construção."
+3. CTA: "Leia a página e veja se faz sentido para o seu momento."

@@ -16,7 +16,7 @@ Faixa aceitável: R$200 a R$250. O preço recomendado preserva percepção premi
 - Acesso pela Kiwify.
 - Material de apoio, se disponível.
 - FAQ técnico dentro da área do curso ou página de suporte.
-- Acesso ao grupo durante a janela de lançamento, se a equipe decidir manter o grupo ativo.
+- Acesso ao grupo durante o aquecimento e sustentação pós-abertura, se a equipe decidir manter o grupo ativo.
 
 ## Bônus simples
 
@@ -24,15 +24,15 @@ Faixa aceitável: R$200 a R$250. O preço recomendado preserva percepção premi
 - Mapa de decisões de treino avançado.
 - Aula curta de bastidores sobre atualização metodológica.
 
-## Group access window
+## Acesso ao grupo
 
 O grupo deve ser usado como ambiente de aquecimento e abertura. Recomendação:
 
 - Abertura do grupo em 22/05/2026.
 - Aquecimento até 04/06/2026.
 - Abertura do carrinho em 05/06/2026.
-- Suporte de dúvidas enquanto houver demanda residual e velocidade saudável.
-- Depois do fechamento por queda de velocidade, migrar apenas comunicações essenciais para pós-lançamento.
+- Produto disponível após a abertura, salvo decisão manual posterior da equipe.
+- Suporte de dúvidas e conteúdo de sustentação após 05/06.
 
 ## Lógica do order bump WMC1
 

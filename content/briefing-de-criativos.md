@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Criar peças para captação do grupo, aquecimento, abertura do carrinho em 05/06 e manutenção da janela por velocidade de vendas.
+Criar peças para captação do grupo, aquecimento, abertura do carrinho em 05/06 e sustentação ativa de vendas após a abertura.
 
 ## Tom
 
@@ -16,6 +16,7 @@ Técnico, didático, premium e provocativo. Sem gritaria visual, sem promessa mi
 - 2 criativos de prova autorizada.
 - 3 stories de chamada para o grupo oficial.
 - 3 stories de abertura do carrinho em 05/06.
+- 4 stories pós-abertura com FAQ, prova e objeções.
 - 2 anúncios para grupo.
 - 2 anúncios de remarketing para página de vendas.
 
@@ -35,3 +36,4 @@ Técnico, didático, premium e provocativo. Sem gritaria visual, sem promessa mi
 - Frases como "método secreto".
 - Urgência falsa.
 - Comunicar metas internas de integrantes.
+- Comunicar prazo de encerramento que não existe.

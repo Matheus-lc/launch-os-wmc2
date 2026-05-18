@@ -1,5 +1,7 @@
 # Dicionário de métricas
 
+Este dicionário existe para decisão operacional. Após 05/06/2026, as métricas servem para otimização pós-abertura, não para retirar o produto do ar.
+
 ## Metas de integrantes do grupo
 
 - group_members_operational_target: 500.
@@ -48,9 +50,9 @@ Faixas de projeção até 05/06/2026:
 ## Cliques na página de vendas
 
 - Fórmula: sessões ou cliques registrados no link da página.
-- Frequência: diária na abertura do carrinho e durante a janela de venda.
+- Frequência: diária após abertura do carrinho.
 - Responsável: programação.
-- Faixa saudável: cresce após mensagens de abertura.
+- Faixa saudável: cresce após mensagens de abertura e reforços de prova.
 - Faixa de alerta: muitas visualizações no WhatsApp e poucos cliques.
 - Ação corretiva: revisar link, CTA e posição do botão.
 
@@ -91,24 +93,93 @@ Faixas de projeção até 05/06/2026:
 - Faixa de alerta: abaixo de 0,8%.
 - Ação corretiva: testar gancho com tese ou bastidor do Saizen.
 
-## Abandono de checkout
+## post_opening_performance
 
-- Fórmula: pessoas que chegaram ao checkout e não compraram / visitas ao checkout.
-- Frequência: a cada 6 horas com carrinho aberto.
-- Responsável: programação.
-- Faixa saudável: abaixo de 70%.
-- Faixa de alerta: acima de 80%.
-- Ação corretiva: testar pagamento, preço, carregamento e clareza da oferta.
-
-## Velocidade de vendas
-
-- Fórmula: vendas nas últimas 24h e receita nas últimas 24h.
-- Frequência: diária com carrinho aberto.
+- Fórmula: leitura combinada de vendas 24h, receita 24h, checkout iniciado, abandono, remarketing, suporte e objeção principal.
+- Frequência: diária a partir de 05/06/2026.
 - Responsável: coordenação.
-- Faixa saudável: 5 ou mais vendas/dia e receita acima de R$1.235/dia.
-- Faixa de alerta: abaixo de 5 vendas por 1 dia.
-- Faixa de fechamento: abaixo de 5 vendas por 2 dias consecutivos, com pelo menos duas tentativas de recuperação já feitas.
-- Ação corretiva: FAQ, prova, remarketing, Instagram e recuperação de carrinho antes de fechar.
+- Uso: escolher a próxima ação de sustentação e otimização.
+- Não usar para: decidir retirada automática do produto do ar.
+
+## sales_24h
+
+- Fórmula: pedidos pagos nas últimas 24 horas.
+- Frequência: diária após abertura.
+- Responsável: coordenação.
+- Faixa saudável: compatível com cenário realista multicanal.
+- Faixa de alerta: zero vendas com cliques relevantes.
+- Ação corretiva: revisar mensagem de abertura, prova, FAQ e página.
+
+## gross_revenue_24h
+
+- Fórmula: vendas pagas nas últimas 24 horas x ticket médio.
+- Frequência: diária após abertura.
+- Responsável: coordenação.
+- Faixa saudável: acompanha a meta de faturamento do cenário ativo.
+- Faixa de alerta: receita parada com tráfego entrando.
+- Ação corretiva: identificar canal, objeção e etapa de queda.
+
+## checkout_started_24h
+
+- Fórmula: usuários que iniciaram checkout nas últimas 24 horas.
+- Frequência: diária.
+- Responsável: programação.
+- Faixa saudável: cresce depois dos CTAs de abertura, prova e remarketing.
+- Faixa de alerta: cliques na página sem início de checkout.
+- Ação corretiva: revisar CTA, botão, carregamento e clareza da oferta.
+
+## checkout_to_purchase_rate
+
+- Fórmula: vendas / checkouts iniciados.
+- Frequência: diária.
+- Responsável: coordenação.
+- Faixa saudável: acompanhar histórico da Kiwify e tráfego quente.
+- Faixa de alerta: muitos checkouts iniciados e poucas compras.
+- Ação corretiva: revisar meios de pagamento, preço, clareza e fricção técnica.
+
+## abandoned_checkout_24h
+
+- Fórmula: checkouts iniciados sem compra nas últimas 24 horas.
+- Frequência: diária.
+- Responsável: programação e suporte.
+- Faixa saudável: queda após mensagens de recuperação.
+- Faixa de alerta: abandono crescendo por dois dias.
+- Ação corretiva: recuperar carrinho com FAQ, prova e suporte, sem agressividade.
+
+## remarketing_roas
+
+- Fórmula: receita atribuída ao remarketing / gasto de remarketing.
+- Frequência: diária.
+- Responsável: marketing.
+- Faixa saudável: acima de 1,5 em tráfego quente.
+- Faixa de alerta: abaixo de 1 por dois dias.
+- Ação corretiva: trocar criativo, reduzir gasto ou focar prova/objeção.
+
+## support_questions_24h
+
+- Fórmula: quantidade de dúvidas reais recebidas nas últimas 24 horas.
+- Frequência: diária.
+- Responsável: suporte.
+- Faixa saudável: dúvidas qualificadas sobre aplicação, acesso, diferença WMC1/WMC2 e pagamento.
+- Faixa de alerta: muitas dúvidas repetidas sobre a mesma coisa.
+- Ação corretiva: atualizar FAQ, stories e bloco da página.
+
+## main_objection
+
+- Fórmula: objeção mais repetida no grupo, DM, comentários e suporte.
+- Frequência: diária.
+- Responsável: suporte e marketing.
+- Faixa saudável: objeção identificada e respondida no mesmo dia.
+- Faixa de alerta: objeção recorrente sem resposta pública.
+- Ação corretiva: publicar story, FAQ ou ajuste de página sobre a objeção.
+
+## recommended_action
+
+- Fórmula: decisão operacional derivada do gargalo principal.
+- Frequência: diária.
+- Responsável: coordenação.
+- Ações permitidas: publicar prova, revisar página, revisar checkout, reforçar FAQ, ativar remarketing, responder objeção, mostrar por dentro do curso, ajustar criativo, recuperar carrinho.
+- Ação proibida como padrão: retirar o produto do ar.
 
 ## Vendas
 
@@ -127,4 +198,3 @@ Faixas de projeção até 05/06/2026:
 - Faixa saudável: acompanhar cenário realista multicanal.
 - Faixa de alerta: abaixo de 50% da meta diária após abertura.
 - Ação corretiva: identificar gargalo antes de aumentar tráfego.
-

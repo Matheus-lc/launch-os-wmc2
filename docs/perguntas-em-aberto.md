@@ -23,11 +23,10 @@
 - Quem publica no Instagram?
 - Quem responde WhatsApp na abertura?
 - Quem tem acesso à Kiwify?
-- Qual horário oficial de abertura e fechamento?
+- Qual horário oficial de abertura do carrinho em 05/06?
 
 ## Técnica
 
 - A página será publicada em qual domínio?
 - Pixel Meta e UTMs serão configurados por quem?
 - O checkout foi testado em mobile?
-

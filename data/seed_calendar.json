@@ -28,6 +28,23 @@
     "phase": "carrinho_aberto",
     "title": "Abertura do carrinho do WMC 2",
     "deliverable": "Oferta enviada primeiro no WhatsApp e depois liberada nos canais públicos"
+  },
+  {
+    "date": "2026-06-06",
+    "phase": "sustentacao_pos_abertura",
+    "title": "Sustentação pós-abertura",
+    "deliverable": "Performance 24h revisada, prova publicada e objeções mapeadas"
+  },
+  {
+    "date": "2026-06-07",
+    "phase": "sustentacao_pos_abertura",
+    "title": "Remarketing e recuperação",
+    "deliverable": "Remarketing ativo, checkout abandonado revisado e FAQ atualizado"
+  },
+  {
+    "date": "2026-06-08",
+    "phase": "sustentacao_pos_abertura",
+    "title": "Otimização de página e conteúdo",
+    "deliverable": "Principal objeção respondida em página, stories ou WhatsApp"
   }
 ]
-

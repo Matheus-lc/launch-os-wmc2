@@ -1,6 +1,6 @@
 # Mensagens WhatsApp
 
-Regra de comunicação: metas internas de integrantes não devem aparecer para o público. Usar "grupo oficial", "acesso liberado primeiro aqui", "janela de entrada" e "preparação para 05/06".
+Regra de comunicação: metas internas de integrantes não devem aparecer para o público. Usar "grupo oficial", "acesso liberado primeiro aqui" e "preparação para 05/06".
 
 ## Onboarding
 
@@ -38,14 +38,22 @@ Regra de comunicação: metas internas de integrantes não devem aparecer para o
 
 "Pergunta recorrente: o WMC 2 serve para iniciantes? Resposta curta: não é o foco. Ele foi pensado para quem já tem base e quer estudar decisões mais avançadas de prescrição."
 
-## Manutenção da janela
+## Pós-abertura 1
 
-"A janela de entrada continua ativa enquanto organizamos a demanda, o suporte e a entrega. Se faz sentido para o seu momento de estudo, o link está aqui: [inserir link]."
+"O acesso ao WMC 2 já está liberado. A prioridade começou por este grupo, como combinado. Agora o foco é tirar dúvidas reais sobre aplicação, estrutura das aulas e diferença entre o WMC 1 e o WMC 2."
 
-## Fechamento por velocidade
+## Pós-abertura 2
 
-"Vamos encerrar esta janela de entrada para organizar a entrega, o grupo de estudos e o suporte dos alunos. Quem quiser entrar nesta turma precisa finalizar o acesso até [horário]."
+"Para quem ainda está avaliando: isso não é uma planilha pronta nem um pacote de treinos. É estudo de método, prescrição e lógica aplicada."
 
-## Pós
+## Pós-abertura 3
+
+"A dúvida que mais apareceu hoje foi sobre aplicação prática. O ponto central é: o WMC 2 mostra como pensar a construção do protocolo, não só repetir técnica isolada."
+
+## Pós-abertura 4
+
+"Quem entrou deve assistir com atenção e usar o grupo para estudar. Quem ainda não entrou, leia a página com calma e veja se faz sentido para o seu momento."
+
+## Suporte
 
 "Obrigado a quem entrou no WMC 2. O acesso será enviado pela Kiwify. Se tiver problema de pagamento ou login, responda esta mensagem com print e e-mail de compra."

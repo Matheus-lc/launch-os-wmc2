@@ -40,13 +40,20 @@
 
 10. Stories: abertura amanhã.
     - Objetivo: preparar compra.
-    - CTA: ativar notificações do grupo.
+    - CTA: acompanhar o grupo.
 
 11. Stories: abertura hoje.
-    - Objetivo: vender.
+    - Objetivo: vender com clareza.
     - CTA: acessar página.
 
 12. Carrossel: FAQ do WMC 2.
     - Objetivo: remover objeções.
-    - CTA: comprar antes do fechamento.
+    - CTA: ler a página e decidir com calma.
 
+13. Stories pós-abertura: dúvida real do dia.
+    - Objetivo: sustentar vendas sem pressão artificial.
+    - CTA: enviar pergunta ou acessar a página.
+
+14. Reel pós-abertura: "Não é planilha pronta"
+    - Objetivo: reforçar posicionamento.
+    - CTA: conhecer o WMC 2.

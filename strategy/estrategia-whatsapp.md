@@ -3,7 +3,7 @@
 ## Estrutura
 
 - Comunidade WhatsApp: guarda-chuva do lançamento.
-- Grupo principal: aquecimento, mini-aulas, abertura e dúvidas.
+- Grupo principal: aquecimento, mini-aulas, abertura, dúvidas e sustentação.
 - Grupo reserva: usado se o principal lotar ou se houver falha operacional.
 
 ## Regras do grupo
@@ -37,15 +37,19 @@ Em 05/06/2026, enviar:
 - Para quem é e para quem não é.
 - Link da página de vendas.
 - Preço R$247.
-- Aviso de abertura do carrinho e condição de entrada da janela atual.
+- Aviso de abertura oficial do carrinho.
 
-## Fechamento
+## Sustentação pós-abertura
 
-Quando a velocidade de vendas indicar fechamento, enviar no máximo 3 lembretes no dia final:
+Depois da abertura, usar o grupo para:
 
-- Manhã: resumo técnico e FAQ.
-- Tarde: objeções principais.
-- Noite: fechamento real do carrinho.
+- responder dúvidas reais;
+- publicar prova autorizada;
+- explicar diferença entre WMC 1 e WMC 2;
+- mostrar por dentro do curso;
+- recuperar checkout abandonado sem agressividade;
+- transformar objeções em conteúdo;
+- direcionar interessados para a página com calma.
 
 ## Métricas do grupo
 

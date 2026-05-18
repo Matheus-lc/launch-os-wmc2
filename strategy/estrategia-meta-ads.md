@@ -6,9 +6,9 @@ Usar Meta Ads como apoio, não como motor principal. Recomendação inicial: R$5
 
 ## Divisão de orçamento
 
-- 60% captação para grupo.
-- 25% remarketing de engajados e visitantes.
-- 15% teste de criativos.
+- Antes de 05/06: captação para grupo e remarketing de engajados.
+- A partir de 05/06: remarketing para página de vendas, recuperação de checkout e prova.
+- Testes pequenos de criativos antes de escalar qualquer campanha.
 
 ## Criativos prioritários
 
@@ -16,17 +16,20 @@ Usar Meta Ads como apoio, não como motor principal. Recomendação inicial: R$5
 - Story direto convidando para o grupo.
 - Carrossel com erro comum de prescrição.
 - Prova autorizada com contexto.
+- Pós-abertura: bastidor do curso, FAQ e objeção principal.
 
 ## Públicos
 
 - Engajados do Instagram.
 - Visitantes da página do grupo.
+- Visitantes da página de vendas.
+- Pessoas que iniciaram checkout.
 - Públicos de interesse em musculação, personal trainer, fisiculturismo e educação física.
 - Lookalike apenas se houver base suficiente.
 
 ## Remarketing
 
-Antes de 05/06, remarketing deve levar para o grupo. A partir da abertura do carrinho em 05/06, remarketing deve levar para página de vendas ou checkout.
+Antes de 05/06, remarketing deve levar para o grupo. A partir da abertura do carrinho em 05/06, remarketing deve levar para página de vendas ou checkout, com mensagens de prova, clareza e objeção.
 
 ## Métricas de alerta
 
@@ -35,6 +38,7 @@ Antes de 05/06, remarketing deve levar para o grupo. A partir da abertura do car
 - Frequência acima de 3 sem melhora de clique.
 - Muitos cliques e poucas entradas no grupo.
 - Projeção abaixo de 300 integrantes até 05/06.
+- Checkout iniciado sem compra após 05/06.
 
 ## O que testar primeiro
 
@@ -42,3 +46,4 @@ Antes de 05/06, remarketing deve levar para o grupo. A partir da abertura do car
 2. Criativo com bastidor do curso.
 3. Criativo com pergunta provocativa.
 4. Criativo com convite simples para abertura no WhatsApp.
+5. Criativo pós-abertura com prova e FAQ.

@@ -48,11 +48,22 @@ O assistente e qualquer agente do repositório devem considerar:
 - Carrinho abre em 05/06/2026.
 - Expectativa realista do grupo até 05/06: 300 integrantes qualificados.
 - Meta operacional do grupo até 05/06: 500 integrantes qualificados.
-- 1.000 integrantes não deve mais ser usado como meta, gatilho ou referência principal.
 - Se o grupo estiver abaixo de 300, recomendar plano de compensação.
 - Se o grupo estiver entre 300 e 500, tratar como cenário esperado, não como fracasso.
 - Se o grupo passar de 500, tratar como cenário positivo, mas não abrir carrinho antes de 05/06 apenas por isso.
-- Fechamento é decidido por velocidade de vendas e demanda marginal.
+
+## Regra sem fechamento planejado
+
+O assistente e qualquer agente do repositório devem considerar:
+
+- Grupo de WhatsApp abre em 22/05/2026.
+- Carrinho abre em 05/06/2026.
+- Não existe fechamento planejado.
+- Não existe fechamento automático por queda de vendas.
+- Não usar escassez falsa.
+- Não sugerir “fechar carrinho” como ação padrão.
+- Se vendas caírem, recomendar otimização, prova, remarketing, recuperação de checkout e resposta a objeções.
+- Só falar em fechamento se o usuário informar explicitamente uma decisão manual futura.
 
 ## O que significa pronto
 
@@ -77,4 +88,4 @@ Confirmar que as abas Hoje, Calendário, Conteúdo, Métricas, Checklists, Compl
 
 ## Instrução final
 
-Não sobre-engenheirar. Manter pt-BR. Preservar coerência com a marca Mr.Saizen e com o lançamento curto via WhatsApp.
+Não sobre-engenheirar. Manter pt-BR. Preservar coerência com a marca Mr.Saizen e com a abertura oficial via WhatsApp.

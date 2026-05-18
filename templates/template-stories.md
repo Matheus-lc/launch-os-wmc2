@@ -2,7 +2,7 @@
 
 ## Campos
 
-- Objetivo: aquecer / captar / vender / fechar
+- Objetivo: aquecer / captar / vender / sustentar / responder objeção
 - Tema:
 - Sequência:
 - CTA:
@@ -29,4 +29,3 @@ Story 2:
 
 Story 3:
 "Vou aprofundar isso no grupo do WMC 2. Link na bio."
-

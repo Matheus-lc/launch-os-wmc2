@@ -57,6 +57,7 @@
 
 - Preço: R$247.
 - Abertura do carrinho: 05/06/2026.
+- Produto disponível após a abertura, salvo decisão manual posterior da equipe.
 - Order bump opcional: WMC1.
 - Aviso: WMC2 prevalece em divergências metodológicas.
 
@@ -64,9 +65,9 @@
 
 Descrever garantia real da Kiwify ou política definida. Não inventar prazo.
 
-## 12. Urgência
+## 12. Urgência permitida
 
-Janela de entrada aberta a partir de 05/06/2026. O fechamento deve ser comunicado por motivo real: queda de velocidade, organização de entrega, grupo de estudos e suporte. Não usar escassez falsa.
+A urgência vem da prioridade de acesso no grupo, do momento oficial de abertura, do começo da comunidade de estudos e do custo de continuar usando uma lógica confusa. Não usar escassez de carrinho nem prazo de encerramento planejado.
 
 ## 13. FAQ
 

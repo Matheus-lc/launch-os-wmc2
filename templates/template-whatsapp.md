@@ -2,7 +2,7 @@
 
 ## Campos
 
-- Etapa: onboarding / aquecimento / abertura / FAQ / manutenção / fechamento / pós
+- Etapa: onboarding / aquecimento / abertura / FAQ / sustentação / pós-abertura
 - Objetivo:
 - Mensagem:
 - CTA:
@@ -27,4 +27,4 @@
 
 ## Regra
 
-Não comunicar metas internas de integrantes. Não dizer que a abertura depende de bater X pessoas.
+Não comunicar metas internas de integrantes. Não dizer que a abertura depende de bater X pessoas. Não usar urgência falsa.

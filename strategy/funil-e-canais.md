@@ -10,13 +10,13 @@
 6. Instagram libera a oferta publicamente depois da abertura no grupo.
 7. Página de vendas apresenta o WMC 2 e envia para checkout Kiwify.
 8. Remarketing leve reforça para visitantes e engajados.
-9. Fechamento é decidido por queda de velocidade de vendas e demanda residual.
+9. Pós-abertura mantém vendas ativas com prova, suporte, conteúdo de sustentação e recuperação de checkout.
 
 ## Papel dos canais
 
 ### Instagram
 
-Gerar demanda e reconhecimento de problema. Usar reels, carrosséis e stories para tese, prova e bastidor.
+Gerar demanda e reconhecimento de problema. Usar reels, carrosséis e stories para tese, prova, bastidor, objeções e sustentação pós-abertura.
 
 ### YouTube
 

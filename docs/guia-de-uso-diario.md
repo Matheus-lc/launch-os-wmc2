@@ -15,13 +15,14 @@
 - Remover tarefas que não ajudam abertura, grupo, venda ou suporte.
 - Verificar se as mensagens do WhatsApp estão coerentes com o momento.
 - Se a projeção estiver abaixo de 300, ativar plano de compensação.
-- Fechar o dia com status, aprendizados e próximos bloqueios.
+- Após 05/06, priorizar sustentação de vendas, prova, recuperação de checkout e resposta a objeções.
+- Finalizar o dia com status, aprendizados e próximos bloqueios.
 
 ## Rotina do marketing
 
 - Produzir peça principal do dia.
 - Adaptar a tese para stories e WhatsApp.
-- Revisar CTA: entrar no grupo no pré, acessar checkout na abertura.
+- Revisar CTA: entrar no grupo no pré, acessar checkout na abertura e estudar a página no pós-abertura.
 - Medir salvamentos, respostas, cliques e entradas no grupo.
 - Não tratar 300 a 500 integrantes como fracasso; é o cenário operacional esperado.
 
@@ -31,6 +32,7 @@
 - Garantir página de vendas com blocos na ordem correta.
 - Testar checkout Kiwify em desktop e mobile.
 - Validar links em Instagram, YouTube, WhatsApp e remarketing.
+- Após a abertura, monitorar eventos, checkout iniciado e abandono.
 
 ## Rotina do suporte
 
@@ -49,7 +51,7 @@ Tudo que for produzido deve passar por:
 - Revisão de compliance.
 - Registro do link ou arquivo final.
 
-## Fechamento do dia
+## Fim do dia
 
 - Atualizar status das tarefas.
 - Preencher `metrics/daily_log.csv`.

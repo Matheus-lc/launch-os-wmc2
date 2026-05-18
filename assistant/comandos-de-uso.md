@@ -10,6 +10,7 @@ Use estes comandos copiando o contexto necessário.
 - "Estamos abaixo da projeção de 300. O que fazer?"
 - "Estamos entre 300 e 500. Como seguir?"
 - "Batemos 500 antes de 05/06. O que fazer?"
+- "Como sustentar vendas depois da abertura?"
 
 ## Métricas
 
@@ -18,18 +19,25 @@ Use estes comandos copiando o contexto necessário.
 - "Calcule a média diária necessária para chegar em 300 e 500 até 05/06."
 - "O grupo está frio, o que fazer hoje?"
 - "Temos muitos cliques e poucas vendas. Diagnostique."
+- "As vendas caíram. O que otimizar?"
+- "O checkout iniciou, mas não comprou. O que revisar?"
+- "Quais objeções atacar hoje?"
+- "Que prova publicar agora?"
+- "Como recuperar carrinho abandonado sem parecer agressivo?"
 
 ## Copy
 
 - "Revise esta copy para o WMC 2 e mantenha o tom técnico do Saizen: [colar copy]."
 - "Reescreva este story sem parecer venda agressiva: [colar story]."
 - "Crie 3 variações mais seguras juridicamente para esta promessa: [colar promessa]."
+- "Reescreva este CTA sem usar urgência falsa: [colar CTA]."
 
 ## Compliance
 
 - "Esta peça tem risco de overclaim? [colar peça]."
 - "Troque os claims arriscados por alternativas seguras."
 - "Revise esta página para não prometer resultado físico."
+- "Esta mensagem sugere escassez falsa? [colar mensagem]."
 
 ## Suporte
 

@@ -15,10 +15,11 @@ date,phase,owner,area,task,priority,status,notes
 2026-06-02,aquecimento,Suporte,FAQ,Levantar objeções recorrentes,alta,pendente,Usar DMs comentários e grupo
 2026-06-04,vespera_carrinho,Marketing,Instagram,Reforçar prova e diferença WMC1/WMC2,alta,pendente,Não prometer resultado garantido
 2026-06-04,vespera_carrinho,Programação,Checkout,Teste final de compra,crítica,pendente,Usar link real em mobile
-2026-06-04,vespera_carrinho,Coordenação,Compliance,Revisar mensagens de abertura,crítica,pendente,Checar claims e urgência
+2026-06-04,vespera_carrinho,Coordenação,Compliance,Revisar mensagens de abertura,crítica,pendente,Checar claims e urgência permitida
 2026-06-05,carrinho_aberto,Marketing,WhatsApp,Abrir carrinho primeiro no grupo,crítica,pendente,Enviar link da página
 2026-06-05,carrinho_aberto,Marketing,Instagram,Liberar oferta publicamente após WhatsApp,alta,pendente,Reforçar que o grupo recebeu primeiro
 2026-06-05,carrinho_aberto,Suporte,Atendimento,Responder dúvidas de compra,alta,pendente,Usar FAQ aprovado
-2026-06-06,carrinho_aberto,Coordenação,Métricas,Medir velocidade de vendas das últimas 24h,alta,pendente,Não fechar se demanda seguir saudável
-2026-06-07,carrinho_aberto,Marketing,Remarketing,Ativar recuperação se velocidade cair,alta,pendente,Prova FAQ carrinho abandonado
-2026-06-08,carrinho_aberto,Coordenação,Fechamento,Avaliar regra de fechamento por queda de velocidade,alta,pendente,Fechar apenas após critérios e tentativas
+2026-06-06,sustentacao_pos_abertura,Coordenação,Métricas,Revisar performance pós-abertura,alta,pendente,Medir vendas 24h checkout iniciado abandono e objeções
+2026-06-06,sustentacao_pos_abertura,Marketing,Conteúdo,Publicar prova ou bastidor pós-abertura,alta,pendente,Mostrar aplicação sem promessa exagerada
+2026-06-07,sustentacao_pos_abertura,Marketing,Remarketing,Ativar remarketing e recuperação de checkout,alta,pendente,FAQ prova e clareza de oferta
+2026-06-08,sustentacao_pos_abertura,Coordenação,Otimização,Revisar página checkout e principal objeção,alta,pendente,Ação recomendada deve ser prova página checkout ou remarketing

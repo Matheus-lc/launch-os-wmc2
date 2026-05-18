@@ -1,0 +1,11 @@
+rule_id,phase,metric,green_threshold,yellow_threshold,red_threshold,recommended_action
+GROUP-001,captacao_grupo,group_members_projection,>=500,300-499,<300,Ativar ou manter captação qualificada para o grupo
+GROUP-002,aquecimento,group_interaction_rate,>=10%,5%-9%,<5%,Enviar enquete simples áudio curto ou mini-aula
+OPEN-001,abertura_carrinho,checkout_ready,sim,pendencia_menor,nao,Corrigir checkout antes da liberação do link
+OPEN-002,abertura_carrinho,support_ready,sim,parcial,nao,Alinhar FAQ e responsáveis antes da abertura
+POST-001,primeiras_24h,sales_24h,>=1,0_com_cliques,0_sem_cliques,Validar link página oferta checkout e mensagem
+POST-002,checkout,checkout_to_purchase_rate,>=5%,2%-4%,<2%,Revisar página checkout preço prova e FAQ
+POST-003,remarketing,remarketing_roas,>=1.5,1.0-1.49,<1.0,Ajustar criativo público e mensagem de objeção
+POST-004,suporte,support_questions_24h,respondidas,parcialmente_respondidas,acumuladas,Responder objeções e atualizar FAQ
+POST-005,abandono,abandoned_checkout_24h,baixo,moderado,alto,Recuperar checkout abandonado com mensagem direta e segura
+POST-006,manutencao_ativa,main_objection,mapeada,parcial,desconhecida,Publicar conteúdo de sustentação e prova relacionada

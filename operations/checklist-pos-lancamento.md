@@ -1,4 +1,4 @@
-# Checklist pós-lançamento
+# Checklist pós-abertura e aprendizado
 
 ## Entrega - responsável: suporte
 
@@ -6,6 +6,7 @@
 - [ ] Resolver chamados de pagamento.
 - [ ] Enviar orientação inicial aos alunos.
 - [ ] Registrar dúvidas recorrentes.
+- [ ] Separar dúvidas técnicas para o Saizen.
 
 ## Números - responsável: coordenação
 
@@ -14,6 +15,8 @@
 - [ ] Registrar vendas por canal.
 - [ ] Registrar conversão da página.
 - [ ] Registrar conversão do grupo.
+- [ ] Registrar abandono de checkout.
+- [ ] Registrar principal objeção do dia.
 
 ## Conteúdo - responsável: marketing
 
@@ -21,11 +24,14 @@
 - [ ] Salvar stories de abertura.
 - [ ] Separar provas que surgiram.
 - [ ] Pedir depoimentos com autorização.
+- [ ] Planejar posts de sustentação.
+- [ ] Mostrar por dentro do curso sem inventar prova.
 
-## Aprendizado - responsável: todos
+## Otimização - responsável: todos
 
 - [ ] Listar o que funcionou.
 - [ ] Listar o que travou.
 - [ ] Listar o que simplificar.
-- [ ] Definir se haverá nova janela.
-
+- [ ] Escolher a próxima hipótese de melhoria.
+- [ ] Priorizar página, checkout, FAQ, prova ou criativo.
+- [ ] Manter o produto disponível salvo decisão manual posterior.

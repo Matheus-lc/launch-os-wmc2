@@ -8,6 +8,7 @@
 - Responsável programação: criar página do grupo e rascunho da página de vendas.
 - Responsável suporte: montar FAQ inicial com objeções recorrentes.
 - Responsável coordenação: confirmar abertura do grupo em 22/05 e abertura do carrinho em 05/06.
+- Responsável coordenação: alinhar que não existe fechamento planejado.
 
 ## Amanhã
 
@@ -21,7 +22,7 @@
 
 - Produzir 10 peças de Instagram: 4 carrosséis, 4 reels, 2 sequências de stories.
 - Finalizar 1 vídeo principal de YouTube e 1 vídeo de apoio.
-- Preencher `metrics/dashboard_base.csv` diariamente.
+- Preencher `metrics/dashboard_base.csv` apenas com dados reais.
 - Revisar todas as promessas em `compliance/checklist-compliance.md`.
 - Separar criativos de Meta Ads leve para tráfego ao grupo e remarketing.
 
@@ -34,10 +35,11 @@
 - Ter plano B para grupo frio, anúncio caro e checkout com falha.
 - Ter leitura diária de progresso para 300/500 integrantes.
 
-## No fechamento
+## Pós-abertura
 
-- Publicar lembrete técnico de encerramento, sem desespero.
+- Publicar prova e bastidor do curso.
 - Responder dúvidas públicas com clareza e encaminhar para checkout.
-- Monitorar conversão, cliques e abandono.
-- Manter ou preparar fechamento conforme velocidade de vendas, demanda residual e esforço operacional.
-- Registrar aprendizados no pós-lançamento.
+- Monitorar conversão, cliques, abandono e suporte.
+- Recuperar checkout abandonado sem agressividade.
+- Ajustar página, FAQ, criativos e mensagens conforme dados reais.
+- Registrar aprendizados no relatório diário.
